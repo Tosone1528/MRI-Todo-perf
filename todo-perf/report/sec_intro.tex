@@ -1,0 +1,31 @@
+\section{Introduction}
+La performance d'une application web détermine l'attente de l'utilisateur, le nombre de serveurs à louer, la
+consommation d'énergie et la capacité à absorber un pic de trafic. Elle intéresse donc autant les développeurs que
+les équipes qui exploitent le service, notamment dans les contextes où le matériel et la bande passante sont
+limités.
+
+Des affirmations circulent pourtant sans mesure précise : « Rust est plus rapide que PHP », « Node.js tient mieux la
+charge que Python ». Les travaux publiés comparent surtout des langages sur des programmes de calcul isolés
+\cite{pereira2017}, alors qu'une application web passe l'essentiel de son temps à lire du réseau, à interroger une
+base de données et à produire du JSON. La méthodologie de la mesure compte autant que le résultat : variabilité
+entre exécutions, moyennes trompeuses, latences extrêmes \cite{georges2007,dean2013}, et même la configuration du
+test peut fausser les données \cite{mytkowicz2009}.
+
+\textbf{Question de recherche.} Pour une même API de gestion de tâches adossée à SQLite, de combien les
+performances de cinq technologies (Rust, Go, PHP, Node.js, Python) diffèrent-elles, et cet écart dépend-il de la
+fonctionnalité sollicitée et du nombre d'utilisateurs simultanés ?
+
+\textbf{Hypothèses.}
+\textbf{H1} : sur les fonctionnalités légères (créer, lister, jointure simple), l'ordre est Rust, Go, puis PHP et
+Node.js, et enfin Python, car le coût propre à la technologie (analyse HTTP, JSON, interpréteur) domine.
+\textbf{H2} : sur les fonctionnalités où SQLite travaille longtemps (recherche, agrégation), les écarts se réduisent,
+car le temps est passé dans le moteur de base de données, identique pour toutes les versions.
+\textbf{H3} : la latence extrême (p95, p99) croît avec la charge, et plus vite pour les technologies les moins
+performantes.
+\textbf{H4} : les versions compilées (Rust, Go) consomment moins de mémoire et démarrent plus vite que les versions
+interprétées.
+
+\textbf{Contribution et plan.} Nous présentons cinq implémentations équivalentes d'une même API, un protocole de
+mesure répété 30 fois par cas et les données brutes associées. La section~\ref{sec:methodo} décrit la méthode, la
+section~\ref{sec:dev} la réalisation, la section~\ref{sec:res} les résultats et leur discussion, puis nous
+concluons.

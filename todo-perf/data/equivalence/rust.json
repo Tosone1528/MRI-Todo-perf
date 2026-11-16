@@ -1,0 +1,4075 @@
+[
+ {
+  "body": {
+   "by_category": [
+    {
+     "done": 199,
+     "id": 1,
+     "name": "Travail",
+     "total": 515
+    },
+    {
+     "done": 164,
+     "id": 2,
+     "name": "Etudes",
+     "total": 468
+    },
+    {
+     "done": 200,
+     "id": 3,
+     "name": "Maison",
+     "total": 535
+    },
+    {
+     "done": 200,
+     "id": 4,
+     "name": "Sante",
+     "total": 480
+    },
+    {
+     "done": 207,
+     "id": 5,
+     "name": "Finances",
+     "total": 522
+    },
+    {
+     "done": 191,
+     "id": 6,
+     "name": "Courses",
+     "total": 483
+    },
+    {
+     "done": 190,
+     "id": 7,
+     "name": "Projets",
+     "total": 463
+    },
+    {
+     "done": 206,
+     "id": 8,
+     "name": "Loisirs",
+     "total": 535
+    },
+    {
+     "done": 204,
+     "id": 9,
+     "name": "Famille",
+     "total": 513
+    },
+    {
+     "done": 195,
+     "id": 10,
+     "name": "Voyages",
+     "total": 497
+    },
+    {
+     "done": 215,
+     "id": 11,
+     "name": "Sport",
+     "total": 516
+    },
+    {
+     "done": 195,
+     "id": 12,
+     "name": "Lecture",
+     "total": 484
+    },
+    {
+     "done": 215,
+     "id": 13,
+     "name": "Admin",
+     "total": 511
+    },
+    {
+     "done": 199,
+     "id": 14,
+     "name": "Reunions",
+     "total": 506
+    },
+    {
+     "done": 197,
+     "id": 15,
+     "name": "Code",
+     "total": 504
+    },
+    {
+     "done": 202,
+     "id": 16,
+     "name": "Reseau",
+     "total": 476
+    },
+    {
+     "done": 187,
+     "id": 17,
+     "name": "Cuisine",
+     "total": 478
+    },
+    {
+     "done": 195,
+     "id": 18,
+     "name": "Jardin",
+     "total": 503
+    },
+    {
+     "done": 204,
+     "id": 19,
+     "name": "Auto",
+     "total": 506
+    },
+    {
+     "done": 198,
+     "id": 20,
+     "name": "Divers",
+     "total": 505
+    }
+   ],
+   "by_status": {
+    "doing": 1926,
+    "done": 3963,
+    "todo": 4111
+   },
+   "total": 10000
+  },
+  "method": "GET",
+  "path": "/stats",
+  "status": 200
+ },
+ {
+  "body": {
+   "items": [
+    {
+     "category_id": 18,
+     "description": "Envoyer rapport prioritaire selon les consignes selon les consignes",
+     "due_date": "2026-02-14",
+     "id": 1,
+     "priority": 1,
+     "status": "todo",
+     "title": "Envoyer rapport prioritaire"
+    },
+    {
+     "category_id": 20,
+     "description": "Classer cours urgent avant la fin de la semaine avec toute l'equipe",
+     "due_date": "2026-01-14",
+     "id": 2,
+     "priority": 3,
+     "status": "todo",
+     "title": "Classer cours urgent"
+    },
+    {
+     "category_id": 6,
+     "description": "Ecrire facture nouveau selon les consignes et informer le responsable",
+     "due_date": "2026-12-24",
+     "id": 3,
+     "priority": 1,
+     "status": "doing",
+     "title": "Ecrire facture nouveau"
+    },
+    {
+     "category_id": 4,
+     "description": "Planifier serveur prioritaire pour le client selon les consignes",
+     "due_date": "2026-02-17",
+     "id": 4,
+     "priority": 2,
+     "status": "done",
+     "title": "Planifier serveur prioritaire"
+    },
+    {
+     "category_id": 15,
+     "description": "Planifier budget ancien puis archiver le resultat en suivant la procedure",
+     "due_date": "2026-10-02",
+     "id": 5,
+     "priority": 3,
+     "status": "done",
+     "title": "Planifier budget ancien"
+    },
+    {
+     "category_id": 3,
+     "description": "Envoyer cours mensuel en suivant la procedure puis archiver le resultat",
+     "due_date": "2026-01-24",
+     "id": 6,
+     "priority": 3,
+     "status": "doing",
+     "title": "Envoyer cours mensuel"
+    },
+    {
+     "category_id": 12,
+     "description": "Reviser projet mensuel selon les consignes avec toute l'equipe",
+     "due_date": "2026-03-25",
+     "id": 7,
+     "priority": 2,
+     "status": "todo",
+     "title": "Reviser projet mensuel"
+    },
+    {
+     "category_id": 18,
+     "description": "Acheter serveur partage en suivant la procedure avec toute l'equipe",
+     "due_date": "2026-05-06",
+     "id": 8,
+     "priority": 1,
+     "status": "done",
+     "title": "Acheter serveur partage"
+    },
+    {
+     "category_id": 8,
+     "description": "Corriger examen nouveau en suivant la procedure selon les consignes",
+     "due_date": "2026-01-17",
+     "id": 9,
+     "priority": 1,
+     "status": "done",
+     "title": "Corriger examen nouveau"
+    },
+    {
+     "category_id": 11,
+     "description": "Acheter cours prioritaire avec toute l'equipe selon les consignes",
+     "due_date": "2026-04-19",
+     "id": 10,
+     "priority": 3,
+     "status": "done",
+     "title": "Acheter cours prioritaire"
+    },
+    {
+     "category_id": 18,
+     "description": "Verifier cours simple pour le client en suivant la procedure",
+     "due_date": "2026-10-03",
+     "id": 11,
+     "priority": 3,
+     "status": "todo",
+     "title": "Verifier cours simple"
+    },
+    {
+     "category_id": 17,
+     "description": "Appeler calendrier nouveau sans oublier les details puis archiver le resultat",
+     "due_date": "2026-09-10",
+     "id": 12,
+     "priority": 1,
+     "status": "todo",
+     "title": "Appeler calendrier nouveau"
+    },
+    {
+     "category_id": 20,
+     "description": "Envoyer rapport mensuel pour le client pour le client",
+     "due_date": "2026-02-02",
+     "id": 13,
+     "priority": 2,
+     "status": "done",
+     "title": "Envoyer rapport mensuel"
+    },
+    {
+     "category_id": 18,
+     "description": "Planifier cours simple en suivant la procedure avant la fin de la semaine",
+     "due_date": "2026-05-17",
+     "id": 14,
+     "priority": 1,
+     "status": "done",
+     "title": "Planifier cours simple"
+    },
+    {
+     "category_id": 9,
+     "description": "Acheter budget prioritaire sans oublier les details pour le client",
+     "due_date": "2026-09-14",
+     "id": 15,
+     "priority": 3,
+     "status": "doing",
+     "title": "Acheter budget prioritaire"
+    },
+    {
+     "category_id": 18,
+     "description": "Corriger message mensuel en suivant la procedure selon les consignes",
+     "due_date": "2026-09-29",
+     "id": 16,
+     "priority": 1,
+     "status": "todo",
+     "title": "Corriger message mensuel"
+    },
+    {
+     "category_id": 10,
+     "description": "Preparer dossier ancien et informer le responsable avant la fin de la semaine",
+     "due_date": "2026-05-03",
+     "id": 17,
+     "priority": 2,
+     "status": "todo",
+     "title": "Preparer dossier ancien"
+    },
+    {
+     "category_id": 5,
+     "description": "Preparer facture mensuel avec toute l'equipe et informer le responsable",
+     "due_date": "2026-03-07",
+     "id": 18,
+     "priority": 3,
+     "status": "done",
+     "title": "Preparer facture mensuel"
+    },
+    {
+     "category_id": 7,
+     "description": "Verifier message final en suivant la procedure sans oublier les details",
+     "due_date": "2026-06-09",
+     "id": 19,
+     "priority": 3,
+     "status": "done",
+     "title": "Verifier message final"
+    },
+    {
+     "category_id": 3,
+     "description": "Planifier tableau ancien et informer le responsable et informer le responsable",
+     "due_date": "2026-06-23",
+     "id": 20,
+     "priority": 1,
+     "status": "todo",
+     "title": "Planifier tableau ancien"
+    }
+   ],
+   "page": 1,
+   "size": 20,
+   "total": 10000
+  },
+  "method": "GET",
+  "path": "/tasks",
+  "status": 200
+ },
+ {
+  "body": {
+   "items": [
+    {
+     "category_id": 18,
+     "description": "Verifier cours simple pour le client en suivant la procedure",
+     "due_date": "2026-10-03",
+     "id": 11,
+     "priority": 3,
+     "status": "todo",
+     "title": "Verifier cours simple"
+    },
+    {
+     "category_id": 17,
+     "description": "Appeler calendrier nouveau sans oublier les details puis archiver le resultat",
+     "due_date": "2026-09-10",
+     "id": 12,
+     "priority": 1,
+     "status": "todo",
+     "title": "Appeler calendrier nouveau"
+    },
+    {
+     "category_id": 20,
+     "description": "Envoyer rapport mensuel pour le client pour le client",
+     "due_date": "2026-02-02",
+     "id": 13,
+     "priority": 2,
+     "status": "done",
+     "title": "Envoyer rapport mensuel"
+    },
+    {
+     "category_id": 18,
+     "description": "Planifier cours simple en suivant la procedure avant la fin de la semaine",
+     "due_date": "2026-05-17",
+     "id": 14,
+     "priority": 1,
+     "status": "done",
+     "title": "Planifier cours simple"
+    },
+    {
+     "category_id": 9,
+     "description": "Acheter budget prioritaire sans oublier les details pour le client",
+     "due_date": "2026-09-14",
+     "id": 15,
+     "priority": 3,
+     "status": "doing",
+     "title": "Acheter budget prioritaire"
+    }
+   ],
+   "page": 3,
+   "size": 5,
+   "total": 10000
+  },
+  "method": "GET",
+  "path": "/tasks?page=3&size=5",
+  "status": 200
+ },
+ {
+  "body": {
+   "items": [
+    {
+     "category_id": 11,
+     "description": "Acheter facture nouveau puis archiver le resultat puis archiver le resultat",
+     "due_date": "2026-10-28",
+     "id": 9981,
+     "priority": 1,
+     "status": "todo",
+     "title": "Acheter facture nouveau"
+    },
+    {
+     "category_id": 4,
+     "description": "Corriger facture partage pour le client puis archiver le resultat",
+     "due_date": "2026-04-27",
+     "id": 9982,
+     "priority": 3,
+     "status": "todo",
+     "title": "Corriger facture partage"
+    },
+    {
+     "category_id": 11,
+     "description": "Preparer cours partage avec toute l'equipe pour le client",
+     "due_date": "2026-01-18",
+     "id": 9983,
+     "priority": 3,
+     "status": "doing",
+     "title": "Preparer cours partage"
+    },
+    {
+     "category_id": 2,
+     "description": "Reviser projet mensuel selon les consignes puis archiver le resultat",
+     "due_date": "2026-07-20",
+     "id": 9984,
+     "priority": 2,
+     "status": "done",
+     "title": "Reviser projet mensuel"
+    },
+    {
+     "category_id": 18,
+     "description": "Verifier budget ancien avec toute l'equipe puis archiver le resultat",
+     "due_date": "2026-07-16",
+     "id": 9985,
+     "priority": 2,
+     "status": "todo",
+     "title": "Verifier budget ancien"
+    },
+    {
+     "category_id": 3,
+     "description": "Corriger budget simple avant la fin de la semaine avant la fin de la semaine",
+     "due_date": "2026-04-10",
+     "id": 9986,
+     "priority": 3,
+     "status": "doing",
+     "title": "Corriger budget simple"
+    },
+    {
+     "category_id": 6,
+     "description": "Corriger dossier mensuel avec toute l'equipe avec toute l'equipe",
+     "due_date": "2026-11-25",
+     "id": 9987,
+     "priority": 3,
+     "status": "done",
+     "title": "Corriger dossier mensuel"
+    },
+    {
+     "category_id": 5,
+     "description": "Verifier dossier prioritaire avant la fin de la semaine puis archiver le resultat",
+     "due_date": "2026-09-09",
+     "id": 9988,
+     "priority": 3,
+     "status": "done",
+     "title": "Verifier dossier prioritaire"
+    },
+    {
+     "category_id": 19,
+     "description": "Reviser projet ancien sans oublier les details puis archiver le resultat",
+     "due_date": "2026-10-01",
+     "id": 9989,
+     "priority": 3,
+     "status": "done",
+     "title": "Reviser projet ancien"
+    },
+    {
+     "category_id": 11,
+     "description": "Classer contrat urgent puis archiver le resultat pour le client",
+     "due_date": "2026-01-08",
+     "id": 9990,
+     "priority": 2,
+     "status": "todo",
+     "title": "Classer contrat urgent"
+    },
+    {
+     "category_id": 8,
+     "description": "Reviser tableau mensuel sans oublier les details selon les consignes",
+     "due_date": "2026-04-17",
+     "id": 9991,
+     "priority": 2,
+     "status": "done",
+     "title": "Reviser tableau mensuel"
+    },
+    {
+     "category_id": 6,
+     "description": "Acheter dossier ancien et informer le responsable puis archiver le resultat",
+     "due_date": "2026-06-28",
+     "id": 9992,
+     "priority": 3,
+     "status": "todo",
+     "title": "Acheter dossier ancien"
+    },
+    {
+     "category_id": 5,
+     "description": "Reviser examen nouveau en suivant la procedure pour le client",
+     "due_date": "2026-12-11",
+     "id": 9993,
+     "priority": 3,
+     "status": "done",
+     "title": "Reviser examen nouveau"
+    },
+    {
+     "category_id": 3,
+     "description": "Appeler budget urgent en suivant la procedure pour le client",
+     "due_date": "2026-11-27",
+     "id": 9994,
+     "priority": 2,
+     "status": "todo",
+     "title": "Appeler budget urgent"
+    },
+    {
+     "category_id": 17,
+     "description": "Preparer budget ancien sans oublier les details selon les consignes",
+     "due_date": "2026-01-22",
+     "id": 9995,
+     "priority": 1,
+     "status": "todo",
+     "title": "Preparer budget ancien"
+    },
+    {
+     "category_id": 6,
+     "description": "Verifier serveur simple sans oublier les details en suivant la procedure",
+     "due_date": "2026-03-16",
+     "id": 9996,
+     "priority": 1,
+     "status": "todo",
+     "title": "Verifier serveur simple"
+    },
+    {
+     "category_id": 7,
+     "description": "Classer facture partage avant la fin de la semaine et informer le responsable",
+     "due_date": "2026-03-18",
+     "id": 9997,
+     "priority": 1,
+     "status": "done",
+     "title": "Classer facture partage"
+    },
+    {
+     "category_id": 18,
+     "description": "Ecrire dossier partage avec toute l'equipe avant la fin de la semaine",
+     "due_date": "2026-01-28",
+     "id": 9998,
+     "priority": 3,
+     "status": "todo",
+     "title": "Ecrire dossier partage"
+    },
+    {
+     "category_id": 15,
+     "description": "Planifier dossier prioritaire en suivant la procedure avant la fin de la semaine",
+     "due_date": "2026-03-12",
+     "id": 9999,
+     "priority": 1,
+     "status": "doing",
+     "title": "Planifier dossier prioritaire"
+    },
+    {
+     "category_id": 4,
+     "description": "Envoyer tableau partage sans oublier les details sans oublier les details",
+     "due_date": "2026-07-10",
+     "id": 10000,
+     "priority": 3,
+     "status": "done",
+     "title": "Envoyer tableau partage"
+    }
+   ],
+   "page": 500,
+   "size": 20,
+   "total": 10000
+  },
+  "method": "GET",
+  "path": "/tasks?page=500&size=20",
+  "status": 200
+ },
+ {
+  "body": {
+   "items": [],
+   "page": 100000,
+   "size": 100,
+   "total": 10000
+  },
+  "method": "GET",
+  "path": "/tasks?page=100000&size=100",
+  "status": 200
+ },
+ {
+  "body": {
+   "items": [
+    {
+     "category_id": 18,
+     "description": "Envoyer rapport prioritaire selon les consignes selon les consignes",
+     "due_date": "2026-02-14",
+     "id": 1,
+     "priority": 1,
+     "status": "todo",
+     "title": "Envoyer rapport prioritaire"
+    },
+    {
+     "category_id": 20,
+     "description": "Classer cours urgent avant la fin de la semaine avec toute l'equipe",
+     "due_date": "2026-01-14",
+     "id": 2,
+     "priority": 3,
+     "status": "todo",
+     "title": "Classer cours urgent"
+    },
+    {
+     "category_id": 6,
+     "description": "Ecrire facture nouveau selon les consignes et informer le responsable",
+     "due_date": "2026-12-24",
+     "id": 3,
+     "priority": 1,
+     "status": "doing",
+     "title": "Ecrire facture nouveau"
+    },
+    {
+     "category_id": 4,
+     "description": "Planifier serveur prioritaire pour le client selon les consignes",
+     "due_date": "2026-02-17",
+     "id": 4,
+     "priority": 2,
+     "status": "done",
+     "title": "Planifier serveur prioritaire"
+    },
+    {
+     "category_id": 15,
+     "description": "Planifier budget ancien puis archiver le resultat en suivant la procedure",
+     "due_date": "2026-10-02",
+     "id": 5,
+     "priority": 3,
+     "status": "done",
+     "title": "Planifier budget ancien"
+    },
+    {
+     "category_id": 3,
+     "description": "Envoyer cours mensuel en suivant la procedure puis archiver le resultat",
+     "due_date": "2026-01-24",
+     "id": 6,
+     "priority": 3,
+     "status": "doing",
+     "title": "Envoyer cours mensuel"
+    },
+    {
+     "category_id": 12,
+     "description": "Reviser projet mensuel selon les consignes avec toute l'equipe",
+     "due_date": "2026-03-25",
+     "id": 7,
+     "priority": 2,
+     "status": "todo",
+     "title": "Reviser projet mensuel"
+    },
+    {
+     "category_id": 18,
+     "description": "Acheter serveur partage en suivant la procedure avec toute l'equipe",
+     "due_date": "2026-05-06",
+     "id": 8,
+     "priority": 1,
+     "status": "done",
+     "title": "Acheter serveur partage"
+    },
+    {
+     "category_id": 8,
+     "description": "Corriger examen nouveau en suivant la procedure selon les consignes",
+     "due_date": "2026-01-17",
+     "id": 9,
+     "priority": 1,
+     "status": "done",
+     "title": "Corriger examen nouveau"
+    },
+    {
+     "category_id": 11,
+     "description": "Acheter cours prioritaire avec toute l'equipe selon les consignes",
+     "due_date": "2026-04-19",
+     "id": 10,
+     "priority": 3,
+     "status": "done",
+     "title": "Acheter cours prioritaire"
+    },
+    {
+     "category_id": 18,
+     "description": "Verifier cours simple pour le client en suivant la procedure",
+     "due_date": "2026-10-03",
+     "id": 11,
+     "priority": 3,
+     "status": "todo",
+     "title": "Verifier cours simple"
+    },
+    {
+     "category_id": 17,
+     "description": "Appeler calendrier nouveau sans oublier les details puis archiver le resultat",
+     "due_date": "2026-09-10",
+     "id": 12,
+     "priority": 1,
+     "status": "todo",
+     "title": "Appeler calendrier nouveau"
+    },
+    {
+     "category_id": 20,
+     "description": "Envoyer rapport mensuel pour le client pour le client",
+     "due_date": "2026-02-02",
+     "id": 13,
+     "priority": 2,
+     "status": "done",
+     "title": "Envoyer rapport mensuel"
+    },
+    {
+     "category_id": 18,
+     "description": "Planifier cours simple en suivant la procedure avant la fin de la semaine",
+     "due_date": "2026-05-17",
+     "id": 14,
+     "priority": 1,
+     "status": "done",
+     "title": "Planifier cours simple"
+    },
+    {
+     "category_id": 9,
+     "description": "Acheter budget prioritaire sans oublier les details pour le client",
+     "due_date": "2026-09-14",
+     "id": 15,
+     "priority": 3,
+     "status": "doing",
+     "title": "Acheter budget prioritaire"
+    },
+    {
+     "category_id": 18,
+     "description": "Corriger message mensuel en suivant la procedure selon les consignes",
+     "due_date": "2026-09-29",
+     "id": 16,
+     "priority": 1,
+     "status": "todo",
+     "title": "Corriger message mensuel"
+    },
+    {
+     "category_id": 10,
+     "description": "Preparer dossier ancien et informer le responsable avant la fin de la semaine",
+     "due_date": "2026-05-03",
+     "id": 17,
+     "priority": 2,
+     "status": "todo",
+     "title": "Preparer dossier ancien"
+    },
+    {
+     "category_id": 5,
+     "description": "Preparer facture mensuel avec toute l'equipe et informer le responsable",
+     "due_date": "2026-03-07",
+     "id": 18,
+     "priority": 3,
+     "status": "done",
+     "title": "Preparer facture mensuel"
+    },
+    {
+     "category_id": 7,
+     "description": "Verifier message final en suivant la procedure sans oublier les details",
+     "due_date": "2026-06-09",
+     "id": 19,
+     "priority": 3,
+     "status": "done",
+     "title": "Verifier message final"
+    },
+    {
+     "category_id": 3,
+     "description": "Planifier tableau ancien et informer le responsable et informer le responsable",
+     "due_date": "2026-06-23",
+     "id": 20,
+     "priority": 1,
+     "status": "todo",
+     "title": "Planifier tableau ancien"
+    },
+    {
+     "category_id": 2,
+     "description": "Preparer dossier partage selon les consignes avant la fin de la semaine",
+     "due_date": "2026-04-28",
+     "id": 21,
+     "priority": 3,
+     "status": "todo",
+     "title": "Preparer dossier partage"
+    },
+    {
+     "category_id": 7,
+     "description": "Envoyer rapport ancien avec toute l'equipe selon les consignes",
+     "due_date": "2026-10-04",
+     "id": 22,
+     "priority": 2,
+     "status": "todo",
+     "title": "Envoyer rapport ancien"
+    },
+    {
+     "category_id": 4,
+     "description": "Corriger calendrier simple selon les consignes et informer le responsable",
+     "due_date": "2026-02-19",
+     "id": 23,
+     "priority": 1,
+     "status": "done",
+     "title": "Corriger calendrier simple"
+    },
+    {
+     "category_id": 4,
+     "description": "Planifier serveur nouveau sans oublier les details et informer le responsable",
+     "due_date": "2026-02-01",
+     "id": 24,
+     "priority": 1,
+     "status": "done",
+     "title": "Planifier serveur nouveau"
+    },
+    {
+     "category_id": 15,
+     "description": "Planifier calendrier ancien avec toute l'equipe selon les consignes",
+     "due_date": "2026-03-13",
+     "id": 25,
+     "priority": 3,
+     "status": "todo",
+     "title": "Planifier calendrier ancien"
+    },
+    {
+     "category_id": 15,
+     "description": "Planifier contrat prioritaire et informer le responsable selon les consignes",
+     "due_date": "2026-10-09",
+     "id": 26,
+     "priority": 1,
+     "status": "done",
+     "title": "Planifier contrat prioritaire"
+    },
+    {
+     "category_id": 16,
+     "description": "Envoyer rapport urgent avec toute l'equipe selon les consignes",
+     "due_date": "2026-04-20",
+     "id": 27,
+     "priority": 2,
+     "status": "todo",
+     "title": "Envoyer rapport urgent"
+    },
+    {
+     "category_id": 15,
+     "description": "Planifier rapport final sans oublier les details avant la fin de la semaine",
+     "due_date": "2026-05-27",
+     "id": 28,
+     "priority": 2,
+     "status": "done",
+     "title": "Planifier rapport final"
+    },
+    {
+     "category_id": 19,
+     "description": "Planifier calendrier simple pour le client selon les consignes",
+     "due_date": "2026-10-05",
+     "id": 29,
+     "priority": 1,
+     "status": "todo",
+     "title": "Planifier calendrier simple"
+    },
+    {
+     "category_id": 17,
+     "description": "Preparer calendrier ancien avant la fin de la semaine avant la fin de la semaine",
+     "due_date": "2026-03-22",
+     "id": 30,
+     "priority": 3,
+     "status": "doing",
+     "title": "Preparer calendrier ancien"
+    },
+    {
+     "category_id": 8,
+     "description": "Preparer message mensuel pour le client avec toute l'equipe",
+     "due_date": "2026-07-26",
+     "id": 31,
+     "priority": 3,
+     "status": "doing",
+     "title": "Preparer message mensuel"
+    },
+    {
+     "category_id": 19,
+     "description": "Envoyer dossier partage avant la fin de la semaine avec toute l'equipe",
+     "due_date": "2026-09-25",
+     "id": 32,
+     "priority": 3,
+     "status": "doing",
+     "title": "Envoyer dossier partage"
+    },
+    {
+     "category_id": 10,
+     "description": "Acheter projet partage puis archiver le resultat selon les consignes",
+     "due_date": "2026-08-23",
+     "id": 33,
+     "priority": 1,
+     "status": "todo",
+     "title": "Acheter projet partage"
+    },
+    {
+     "category_id": 17,
+     "description": "Acheter budget urgent et informer le responsable avec toute l'equipe",
+     "due_date": "2026-05-16",
+     "id": 34,
+     "priority": 1,
+     "status": "todo",
+     "title": "Acheter budget urgent"
+    },
+    {
+     "category_id": 18,
+     "description": "Corriger serveur mensuel selon les consignes puis archiver le resultat",
+     "due_date": "2026-12-27",
+     "id": 35,
+     "priority": 2,
+     "status": "todo",
+     "title": "Corriger serveur mensuel"
+    },
+    {
+     "category_id": 9,
+     "description": "Appeler dossier urgent en suivant la procedure avec toute l'equipe",
+     "due_date": "2026-03-01",
+     "id": 36,
+     "priority": 1,
+     "status": "done",
+     "title": "Appeler dossier urgent"
+    },
+    {
+     "category_id": 11,
+     "description": "Envoyer calendrier final en suivant la procedure en suivant la procedure",
+     "due_date": "2026-04-15",
+     "id": 37,
+     "priority": 3,
+     "status": "done",
+     "title": "Envoyer calendrier final"
+    },
+    {
+     "category_id": 9,
+     "description": "Appeler message simple en suivant la procedure avant la fin de la semaine",
+     "due_date": "2026-01-23",
+     "id": 38,
+     "priority": 2,
+     "status": "todo",
+     "title": "Appeler message simple"
+    },
+    {
+     "category_id": 14,
+     "description": "Preparer serveur final en suivant la procedure pour le client",
+     "due_date": "2026-10-15",
+     "id": 39,
+     "priority": 3,
+     "status": "done",
+     "title": "Preparer serveur final"
+    },
+    {
+     "category_id": 18,
+     "description": "Preparer budget mensuel pour le client avant la fin de la semaine",
+     "due_date": "2026-03-17",
+     "id": 40,
+     "priority": 3,
+     "status": "done",
+     "title": "Preparer budget mensuel"
+    },
+    {
+     "category_id": 12,
+     "description": "Planifier contrat urgent en suivant la procedure puis archiver le resultat",
+     "due_date": "2026-04-18",
+     "id": 41,
+     "priority": 1,
+     "status": "done",
+     "title": "Planifier contrat urgent"
+    },
+    {
+     "category_id": 5,
+     "description": "Reviser tableau mensuel puis archiver le resultat sans oublier les details",
+     "due_date": "2026-05-02",
+     "id": 42,
+     "priority": 3,
+     "status": "done",
+     "title": "Reviser tableau mensuel"
+    },
+    {
+     "category_id": 14,
+     "description": "Corriger contrat nouveau avant la fin de la semaine pour le client",
+     "due_date": "2026-12-09",
+     "id": 43,
+     "priority": 2,
+     "status": "done",
+     "title": "Corriger contrat nouveau"
+    },
+    {
+     "category_id": 8,
+     "description": "Reviser projet final avec toute l'equipe sans oublier les details",
+     "due_date": "2026-04-13",
+     "id": 44,
+     "priority": 2,
+     "status": "done",
+     "title": "Reviser projet final"
+    },
+    {
+     "category_id": 13,
+     "description": "Verifier serveur prioritaire selon les consignes selon les consignes",
+     "due_date": "2026-06-18",
+     "id": 45,
+     "priority": 1,
+     "status": "todo",
+     "title": "Verifier serveur prioritaire"
+    },
+    {
+     "category_id": 11,
+     "description": "Appeler budget prioritaire puis archiver le resultat sans oublier les details",
+     "due_date": "2026-01-15",
+     "id": 46,
+     "priority": 3,
+     "status": "done",
+     "title": "Appeler budget prioritaire"
+    },
+    {
+     "category_id": 12,
+     "description": "Envoyer projet final en suivant la procedure avant la fin de la semaine",
+     "due_date": "2026-06-10",
+     "id": 47,
+     "priority": 2,
+     "status": "todo",
+     "title": "Envoyer projet final"
+    },
+    {
+     "category_id": 14,
+     "description": "Planifier dossier mensuel sans oublier les details selon les consignes",
+     "due_date": "2026-01-01",
+     "id": 48,
+     "priority": 3,
+     "status": "todo",
+     "title": "Planifier dossier mensuel"
+    },
+    {
+     "category_id": 11,
+     "description": "Ecrire message partage puis archiver le resultat sans oublier les details",
+     "due_date": "2026-11-16",
+     "id": 49,
+     "priority": 3,
+     "status": "todo",
+     "title": "Ecrire message partage"
+    },
+    {
+     "category_id": 13,
+     "description": "Acheter tableau mensuel en suivant la procedure en suivant la procedure",
+     "due_date": "2026-12-23",
+     "id": 50,
+     "priority": 2,
+     "status": "done",
+     "title": "Acheter tableau mensuel"
+    },
+    {
+     "category_id": 6,
+     "description": "Appeler message final selon les consignes sans oublier les details",
+     "due_date": "2026-11-12",
+     "id": 51,
+     "priority": 2,
+     "status": "done",
+     "title": "Appeler message final"
+    },
+    {
+     "category_id": 19,
+     "description": "Classer projet nouveau avant la fin de la semaine en suivant la procedure",
+     "due_date": "2026-11-07",
+     "id": 52,
+     "priority": 2,
+     "status": "todo",
+     "title": "Classer projet nouveau"
+    },
+    {
+     "category_id": 6,
+     "description": "Acheter examen simple et informer le responsable selon les consignes",
+     "due_date": "2026-12-04",
+     "id": 53,
+     "priority": 3,
+     "status": "doing",
+     "title": "Acheter examen simple"
+    },
+    {
+     "category_id": 7,
+     "description": "Envoyer projet ancien avec toute l'equipe selon les consignes",
+     "due_date": "2026-03-17",
+     "id": 54,
+     "priority": 1,
+     "status": "done",
+     "title": "Envoyer projet ancien"
+    },
+    {
+     "category_id": 19,
+     "description": "Preparer rapport partage et informer le responsable avec toute l'equipe",
+     "due_date": "2026-04-10",
+     "id": 55,
+     "priority": 3,
+     "status": "doing",
+     "title": "Preparer rapport partage"
+    },
+    {
+     "category_id": 4,
+     "description": "Planifier examen nouveau selon les consignes pour le client",
+     "due_date": "2026-08-06",
+     "id": 56,
+     "priority": 1,
+     "status": "done",
+     "title": "Planifier examen nouveau"
+    },
+    {
+     "category_id": 15,
+     "description": "Reviser contrat simple avant la fin de la semaine selon les consignes",
+     "due_date": "2026-03-10",
+     "id": 57,
+     "priority": 1,
+     "status": "done",
+     "title": "Reviser contrat simple"
+    },
+    {
+     "category_id": 15,
+     "description": "Verifier tableau ancien et informer le responsable sans oublier les details",
+     "due_date": "2026-03-23",
+     "id": 58,
+     "priority": 3,
+     "status": "done",
+     "title": "Verifier tableau ancien"
+    },
+    {
+     "category_id": 16,
+     "description": "Verifier examen prioritaire selon les consignes en suivant la procedure",
+     "due_date": "2026-11-17",
+     "id": 59,
+     "priority": 3,
+     "status": "done",
+     "title": "Verifier examen prioritaire"
+    },
+    {
+     "category_id": 11,
+     "description": "Reviser projet simple avec toute l'equipe en suivant la procedure",
+     "due_date": "2026-10-04",
+     "id": 60,
+     "priority": 2,
+     "status": "todo",
+     "title": "Reviser projet simple"
+    },
+    {
+     "category_id": 7,
+     "description": "Envoyer contrat final selon les consignes sans oublier les details",
+     "due_date": "2026-02-02",
+     "id": 61,
+     "priority": 3,
+     "status": "done",
+     "title": "Envoyer contrat final"
+    },
+    {
+     "category_id": 13,
+     "description": "Planifier cours ancien et informer le responsable sans oublier les details",
+     "due_date": "2026-10-27",
+     "id": 62,
+     "priority": 2,
+     "status": "todo",
+     "title": "Planifier cours ancien"
+    },
+    {
+     "category_id": 13,
+     "description": "Preparer dossier nouveau et informer le responsable avant la fin de la semaine",
+     "due_date": "2026-08-03",
+     "id": 63,
+     "priority": 2,
+     "status": "done",
+     "title": "Preparer dossier nouveau"
+    },
+    {
+     "category_id": 1,
+     "description": "Ecrire calendrier partage et informer le responsable selon les consignes",
+     "due_date": "2026-07-19",
+     "id": 64,
+     "priority": 2,
+     "status": "todo",
+     "title": "Ecrire calendrier partage"
+    },
+    {
+     "category_id": 18,
+     "description": "Acheter tableau nouveau pour le client et informer le responsable",
+     "due_date": "2026-01-14",
+     "id": 65,
+     "priority": 3,
+     "status": "done",
+     "title": "Acheter tableau nouveau"
+    },
+    {
+     "category_id": 6,
+     "description": "Planifier dossier urgent avec toute l'equipe sans oublier les details",
+     "due_date": "2026-01-26",
+     "id": 66,
+     "priority": 2,
+     "status": "todo",
+     "title": "Planifier dossier urgent"
+    },
+    {
+     "category_id": 9,
+     "description": "Appeler cours ancien selon les consignes et informer le responsable",
+     "due_date": "2026-08-04",
+     "id": 67,
+     "priority": 2,
+     "status": "todo",
+     "title": "Appeler cours ancien"
+    },
+    {
+     "category_id": 8,
+     "description": "Appeler budget simple avant la fin de la semaine avant la fin de la semaine",
+     "due_date": "2026-11-29",
+     "id": 68,
+     "priority": 2,
+     "status": "done",
+     "title": "Appeler budget simple"
+    },
+    {
+     "category_id": 20,
+     "description": "Envoyer tableau urgent avant la fin de la semaine selon les consignes",
+     "due_date": "2026-03-20",
+     "id": 69,
+     "priority": 1,
+     "status": "todo",
+     "title": "Envoyer tableau urgent"
+    },
+    {
+     "category_id": 12,
+     "description": "Reviser contrat simple avec toute l'equipe selon les consignes",
+     "due_date": "2026-03-27",
+     "id": 70,
+     "priority": 2,
+     "status": "doing",
+     "title": "Reviser contrat simple"
+    },
+    {
+     "category_id": 10,
+     "description": "Classer dossier mensuel pour le client en suivant la procedure",
+     "due_date": "2026-10-22",
+     "id": 71,
+     "priority": 1,
+     "status": "todo",
+     "title": "Classer dossier mensuel"
+    },
+    {
+     "category_id": 20,
+     "description": "Planifier cours partage avec toute l'equipe selon les consignes",
+     "due_date": "2026-03-03",
+     "id": 72,
+     "priority": 2,
+     "status": "todo",
+     "title": "Planifier cours partage"
+    },
+    {
+     "category_id": 11,
+     "description": "Classer rapport ancien sans oublier les details puis archiver le resultat",
+     "due_date": "2026-01-07",
+     "id": 73,
+     "priority": 3,
+     "status": "todo",
+     "title": "Classer rapport ancien"
+    },
+    {
+     "category_id": 5,
+     "description": "Planifier examen mensuel sans oublier les details puis archiver le resultat",
+     "due_date": "2026-08-11",
+     "id": 74,
+     "priority": 2,
+     "status": "done",
+     "title": "Planifier examen mensuel"
+    },
+    {
+     "category_id": 19,
+     "description": "Corriger calendrier prioritaire et informer le responsable et informer le responsable",
+     "due_date": "2026-05-18",
+     "id": 75,
+     "priority": 3,
+     "status": "doing",
+     "title": "Corriger calendrier prioritaire"
+    },
+    {
+     "category_id": 19,
+     "description": "Acheter facture mensuel en suivant la procedure et informer le responsable",
+     "due_date": "2026-11-09",
+     "id": 76,
+     "priority": 2,
+     "status": "todo",
+     "title": "Acheter facture mensuel"
+    },
+    {
+     "category_id": 12,
+     "description": "Planifier serveur urgent et informer le responsable puis archiver le resultat",
+     "due_date": "2026-05-13",
+     "id": 77,
+     "priority": 1,
+     "status": "todo",
+     "title": "Planifier serveur urgent"
+    },
+    {
+     "category_id": 14,
+     "description": "Acheter projet prioritaire avant la fin de la semaine selon les consignes",
+     "due_date": "2026-09-08",
+     "id": 78,
+     "priority": 3,
+     "status": "todo",
+     "title": "Acheter projet prioritaire"
+    },
+    {
+     "category_id": 10,
+     "description": "Ecrire facture simple et informer le responsable et informer le responsable",
+     "due_date": "2026-04-24",
+     "id": 79,
+     "priority": 1,
+     "status": "done",
+     "title": "Ecrire facture simple"
+    },
+    {
+     "category_id": 12,
+     "description": "Planifier calendrier partage en suivant la procedure puis archiver le resultat",
+     "due_date": "2026-08-06",
+     "id": 80,
+     "priority": 3,
+     "status": "doing",
+     "title": "Planifier calendrier partage"
+    },
+    {
+     "category_id": 4,
+     "description": "Ecrire serveur ancien et informer le responsable en suivant la procedure",
+     "due_date": "2026-04-09",
+     "id": 81,
+     "priority": 1,
+     "status": "todo",
+     "title": "Ecrire serveur ancien"
+    },
+    {
+     "category_id": 19,
+     "description": "Acheter budget final selon les consignes selon les consignes",
+     "due_date": "2026-09-26",
+     "id": 82,
+     "priority": 2,
+     "status": "done",
+     "title": "Acheter budget final"
+    },
+    {
+     "category_id": 10,
+     "description": "Classer projet mensuel selon les consignes en suivant la procedure",
+     "due_date": "2026-01-08",
+     "id": 83,
+     "priority": 1,
+     "status": "todo",
+     "title": "Classer projet mensuel"
+    },
+    {
+     "category_id": 5,
+     "description": "Ecrire contrat prioritaire avant la fin de la semaine avant la fin de la semaine",
+     "due_date": "2026-11-23",
+     "id": 84,
+     "priority": 3,
+     "status": "doing",
+     "title": "Ecrire contrat prioritaire"
+    },
+    {
+     "category_id": 6,
+     "description": "Verifier budget urgent en suivant la procedure et informer le responsable",
+     "due_date": "2026-01-27",
+     "id": 85,
+     "priority": 2,
+     "status": "doing",
+     "title": "Verifier budget urgent"
+    },
+    {
+     "category_id": 2,
+     "description": "Appeler examen mensuel avec toute l'equipe sans oublier les details",
+     "due_date": "2026-03-19",
+     "id": 86,
+     "priority": 3,
+     "status": "doing",
+     "title": "Appeler examen mensuel"
+    },
+    {
+     "category_id": 20,
+     "description": "Corriger dossier prioritaire avec toute l'equipe selon les consignes",
+     "due_date": "2026-11-02",
+     "id": 87,
+     "priority": 2,
+     "status": "todo",
+     "title": "Corriger dossier prioritaire"
+    },
+    {
+     "category_id": 14,
+     "description": "Classer facture nouveau et informer le responsable et informer le responsable",
+     "due_date": "2026-06-06",
+     "id": 88,
+     "priority": 3,
+     "status": "todo",
+     "title": "Classer facture nouveau"
+    },
+    {
+     "category_id": 3,
+     "description": "Classer dossier urgent avec toute l'equipe selon les consignes",
+     "due_date": "2026-03-22",
+     "id": 89,
+     "priority": 2,
+     "status": "done",
+     "title": "Classer dossier urgent"
+    },
+    {
+     "category_id": 20,
+     "description": "Reviser contrat mensuel pour le client avant la fin de la semaine",
+     "due_date": "2026-08-29",
+     "id": 90,
+     "priority": 3,
+     "status": "doing",
+     "title": "Reviser contrat mensuel"
+    },
+    {
+     "category_id": 3,
+     "description": "Appeler rapport partage en suivant la procedure en suivant la procedure",
+     "due_date": "2026-12-18",
+     "id": 91,
+     "priority": 2,
+     "status": "done",
+     "title": "Appeler rapport partage"
+    },
+    {
+     "category_id": 5,
+     "description": "Reviser projet partage sans oublier les details avec toute l'equipe",
+     "due_date": "2026-05-17",
+     "id": 92,
+     "priority": 3,
+     "status": "doing",
+     "title": "Reviser projet partage"
+    },
+    {
+     "category_id": 10,
+     "description": "Corriger budget urgent pour le client en suivant la procedure",
+     "due_date": "2026-08-13",
+     "id": 93,
+     "priority": 3,
+     "status": "doing",
+     "title": "Corriger budget urgent"
+    },
+    {
+     "category_id": 15,
+     "description": "Envoyer examen prioritaire sans oublier les details en suivant la procedure",
+     "due_date": "2026-02-11",
+     "id": 94,
+     "priority": 2,
+     "status": "doing",
+     "title": "Envoyer examen prioritaire"
+    },
+    {
+     "category_id": 19,
+     "description": "Classer rapport nouveau puis archiver le resultat en suivant la procedure",
+     "due_date": "2026-10-28",
+     "id": 95,
+     "priority": 1,
+     "status": "todo",
+     "title": "Classer rapport nouveau"
+    },
+    {
+     "category_id": 15,
+     "description": "Preparer tableau prioritaire avant la fin de la semaine pour le client",
+     "due_date": "2026-05-23",
+     "id": 96,
+     "priority": 3,
+     "status": "doing",
+     "title": "Preparer tableau prioritaire"
+    },
+    {
+     "category_id": 11,
+     "description": "Corriger dossier nouveau et informer le responsable avec toute l'equipe",
+     "due_date": "2026-06-14",
+     "id": 97,
+     "priority": 2,
+     "status": "doing",
+     "title": "Corriger dossier nouveau"
+    },
+    {
+     "category_id": 18,
+     "description": "Envoyer contrat ancien sans oublier les details et informer le responsable",
+     "due_date": "2026-01-19",
+     "id": 98,
+     "priority": 2,
+     "status": "todo",
+     "title": "Envoyer contrat ancien"
+    },
+    {
+     "category_id": 17,
+     "description": "Verifier budget ancien en suivant la procedure puis archiver le resultat",
+     "due_date": "2026-01-01",
+     "id": 99,
+     "priority": 2,
+     "status": "todo",
+     "title": "Verifier budget ancien"
+    },
+    {
+     "category_id": 16,
+     "description": "Ecrire examen nouveau avant la fin de la semaine selon les consignes",
+     "due_date": "2026-11-17",
+     "id": 100,
+     "priority": 3,
+     "status": "doing",
+     "title": "Ecrire examen nouveau"
+    }
+   ],
+   "page": 1,
+   "size": 100,
+   "total": 10000
+  },
+  "method": "GET",
+  "path": "/tasks?size=1000",
+  "status": 200
+ },
+ {
+  "body": {
+   "error": "invalid input"
+  },
+  "method": "GET",
+  "path": "/tasks?page=0",
+  "status": 400
+ },
+ {
+  "body": {
+   "error": "invalid input"
+  },
+  "method": "GET",
+  "path": "/tasks?size=abc",
+  "status": 400
+ },
+ {
+  "body": {
+   "error": "invalid input"
+  },
+  "method": "GET",
+  "path": "/tasks?page=-1",
+  "status": 400
+ },
+ {
+  "body": {
+   "error": "invalid input"
+  },
+  "method": "GET",
+  "path": "/tasks?page=",
+  "status": 400
+ },
+ {
+  "body": {
+   "category_id": 18,
+   "description": "Envoyer rapport prioritaire selon les consignes selon les consignes",
+   "due_date": "2026-02-14",
+   "id": 1,
+   "priority": 1,
+   "status": "todo",
+   "title": "Envoyer rapport prioritaire"
+  },
+  "method": "GET",
+  "path": "/tasks/1",
+  "status": 200
+ },
+ {
+  "body": {
+   "category_id": 4,
+   "description": "Envoyer tableau partage sans oublier les details sans oublier les details",
+   "due_date": "2026-07-10",
+   "id": 10000,
+   "priority": 3,
+   "status": "done",
+   "title": "Envoyer tableau partage"
+  },
+  "method": "GET",
+  "path": "/tasks/10000",
+  "status": 200
+ },
+ {
+  "body": {
+   "error": "not found"
+  },
+  "method": "GET",
+  "path": "/tasks/10001",
+  "status": 404
+ },
+ {
+  "body": {
+   "error": "not found"
+  },
+  "method": "GET",
+  "path": "/tasks/abc",
+  "status": 404
+ },
+ {
+  "body": {
+   "items": [
+    {
+     "category_id": 18,
+     "description": "Envoyer rapport prioritaire selon les consignes selon les consignes",
+     "due_date": "2026-02-14",
+     "id": 1,
+     "priority": 1,
+     "status": "todo",
+     "title": "Envoyer rapport prioritaire"
+    },
+    {
+     "category_id": 20,
+     "description": "Envoyer rapport mensuel pour le client pour le client",
+     "due_date": "2026-02-02",
+     "id": 13,
+     "priority": 2,
+     "status": "done",
+     "title": "Envoyer rapport mensuel"
+    },
+    {
+     "category_id": 7,
+     "description": "Envoyer rapport ancien avec toute l'equipe selon les consignes",
+     "due_date": "2026-10-04",
+     "id": 22,
+     "priority": 2,
+     "status": "todo",
+     "title": "Envoyer rapport ancien"
+    },
+    {
+     "category_id": 16,
+     "description": "Envoyer rapport urgent avec toute l'equipe selon les consignes",
+     "due_date": "2026-04-20",
+     "id": 27,
+     "priority": 2,
+     "status": "todo",
+     "title": "Envoyer rapport urgent"
+    },
+    {
+     "category_id": 15,
+     "description": "Planifier rapport final sans oublier les details avant la fin de la semaine",
+     "due_date": "2026-05-27",
+     "id": 28,
+     "priority": 2,
+     "status": "done",
+     "title": "Planifier rapport final"
+    },
+    {
+     "category_id": 19,
+     "description": "Preparer rapport partage et informer le responsable avec toute l'equipe",
+     "due_date": "2026-04-10",
+     "id": 55,
+     "priority": 3,
+     "status": "doing",
+     "title": "Preparer rapport partage"
+    },
+    {
+     "category_id": 11,
+     "description": "Classer rapport ancien sans oublier les details puis archiver le resultat",
+     "due_date": "2026-01-07",
+     "id": 73,
+     "priority": 3,
+     "status": "todo",
+     "title": "Classer rapport ancien"
+    },
+    {
+     "category_id": 3,
+     "description": "Appeler rapport partage en suivant la procedure en suivant la procedure",
+     "due_date": "2026-12-18",
+     "id": 91,
+     "priority": 2,
+     "status": "done",
+     "title": "Appeler rapport partage"
+    },
+    {
+     "category_id": 19,
+     "description": "Classer rapport nouveau puis archiver le resultat en suivant la procedure",
+     "due_date": "2026-10-28",
+     "id": 95,
+     "priority": 1,
+     "status": "todo",
+     "title": "Classer rapport nouveau"
+    },
+    {
+     "category_id": 16,
+     "description": "Verifier rapport partage en suivant la procedure pour le client",
+     "due_date": "2026-03-04",
+     "id": 101,
+     "priority": 2,
+     "status": "done",
+     "title": "Verifier rapport partage"
+    },
+    {
+     "category_id": 18,
+     "description": "Appeler rapport prioritaire en suivant la procedure et informer le responsable",
+     "due_date": "2026-09-05",
+     "id": 106,
+     "priority": 2,
+     "status": "done",
+     "title": "Appeler rapport prioritaire"
+    },
+    {
+     "category_id": 11,
+     "description": "Verifier rapport final sans oublier les details pour le client",
+     "due_date": "2026-11-16",
+     "id": 110,
+     "priority": 2,
+     "status": "todo",
+     "title": "Verifier rapport final"
+    },
+    {
+     "category_id": 14,
+     "description": "Verifier rapport ancien pour le client avec toute l'equipe",
+     "due_date": "2026-03-31",
+     "id": 122,
+     "priority": 2,
+     "status": "done",
+     "title": "Verifier rapport ancien"
+    },
+    {
+     "category_id": 18,
+     "description": "Corriger rapport urgent en suivant la procedure et informer le responsable",
+     "due_date": "2026-03-11",
+     "id": 128,
+     "priority": 1,
+     "status": "todo",
+     "title": "Corriger rapport urgent"
+    },
+    {
+     "category_id": 1,
+     "description": "Acheter rapport final pour le client sans oublier les details",
+     "due_date": "2026-02-16",
+     "id": 148,
+     "priority": 3,
+     "status": "todo",
+     "title": "Acheter rapport final"
+    },
+    {
+     "category_id": 13,
+     "description": "Classer rapport ancien avec toute l'equipe puis archiver le resultat",
+     "due_date": "2026-05-26",
+     "id": 168,
+     "priority": 3,
+     "status": "todo",
+     "title": "Classer rapport ancien"
+    },
+    {
+     "category_id": 20,
+     "description": "Ecrire rapport ancien pour le client sans oublier les details",
+     "due_date": "2026-03-26",
+     "id": 173,
+     "priority": 1,
+     "status": "todo",
+     "title": "Ecrire rapport ancien"
+    },
+    {
+     "category_id": 10,
+     "description": "Verifier rapport nouveau puis archiver le resultat selon les consignes",
+     "due_date": "2026-08-18",
+     "id": 174,
+     "priority": 3,
+     "status": "done",
+     "title": "Verifier rapport nouveau"
+    },
+    {
+     "category_id": 15,
+     "description": "Corriger rapport prioritaire et informer le responsable pour le client",
+     "due_date": "2026-11-12",
+     "id": 181,
+     "priority": 2,
+     "status": "done",
+     "title": "Corriger rapport prioritaire"
+    },
+    {
+     "category_id": 9,
+     "description": "Ecrire rapport nouveau et informer le responsable avant la fin de la semaine",
+     "due_date": "2026-01-09",
+     "id": 187,
+     "priority": 2,
+     "status": "done",
+     "title": "Ecrire rapport nouveau"
+    }
+   ],
+   "total": 840
+  },
+  "method": "GET",
+  "path": "/tasks/search?q=rapport",
+  "status": 200
+ },
+ {
+  "body": {
+   "items": [
+    {
+     "category_id": 20,
+     "description": "Envoyer rapport mensuel pour le client pour le client",
+     "due_date": "2026-02-02",
+     "id": 13,
+     "priority": 2,
+     "status": "done",
+     "title": "Envoyer rapport mensuel"
+    },
+    {
+     "category_id": 15,
+     "description": "Planifier rapport final sans oublier les details avant la fin de la semaine",
+     "due_date": "2026-05-27",
+     "id": 28,
+     "priority": 2,
+     "status": "done",
+     "title": "Planifier rapport final"
+    },
+    {
+     "category_id": 3,
+     "description": "Appeler rapport partage en suivant la procedure en suivant la procedure",
+     "due_date": "2026-12-18",
+     "id": 91,
+     "priority": 2,
+     "status": "done",
+     "title": "Appeler rapport partage"
+    },
+    {
+     "category_id": 16,
+     "description": "Verifier rapport partage en suivant la procedure pour le client",
+     "due_date": "2026-03-04",
+     "id": 101,
+     "priority": 2,
+     "status": "done",
+     "title": "Verifier rapport partage"
+    },
+    {
+     "category_id": 18,
+     "description": "Appeler rapport prioritaire en suivant la procedure et informer le responsable",
+     "due_date": "2026-09-05",
+     "id": 106,
+     "priority": 2,
+     "status": "done",
+     "title": "Appeler rapport prioritaire"
+    },
+    {
+     "category_id": 14,
+     "description": "Verifier rapport ancien pour le client avec toute l'equipe",
+     "due_date": "2026-03-31",
+     "id": 122,
+     "priority": 2,
+     "status": "done",
+     "title": "Verifier rapport ancien"
+    },
+    {
+     "category_id": 10,
+     "description": "Verifier rapport nouveau puis archiver le resultat selon les consignes",
+     "due_date": "2026-08-18",
+     "id": 174,
+     "priority": 3,
+     "status": "done",
+     "title": "Verifier rapport nouveau"
+    },
+    {
+     "category_id": 15,
+     "description": "Corriger rapport prioritaire et informer le responsable pour le client",
+     "due_date": "2026-11-12",
+     "id": 181,
+     "priority": 2,
+     "status": "done",
+     "title": "Corriger rapport prioritaire"
+    },
+    {
+     "category_id": 9,
+     "description": "Ecrire rapport nouveau et informer le responsable avant la fin de la semaine",
+     "due_date": "2026-01-09",
+     "id": 187,
+     "priority": 2,
+     "status": "done",
+     "title": "Ecrire rapport nouveau"
+    },
+    {
+     "category_id": 13,
+     "description": "Acheter rapport ancien en suivant la procedure avec toute l'equipe",
+     "due_date": "2026-08-14",
+     "id": 192,
+     "priority": 2,
+     "status": "done",
+     "title": "Acheter rapport ancien"
+    },
+    {
+     "category_id": 9,
+     "description": "Classer rapport urgent avec toute l'equipe avant la fin de la semaine",
+     "due_date": "2026-11-30",
+     "id": 211,
+     "priority": 3,
+     "status": "done",
+     "title": "Classer rapport urgent"
+    },
+    {
+     "category_id": 12,
+     "description": "Ecrire rapport mensuel sans oublier les details pour le client",
+     "due_date": "2026-07-26",
+     "id": 220,
+     "priority": 3,
+     "status": "done",
+     "title": "Ecrire rapport mensuel"
+    },
+    {
+     "category_id": 5,
+     "description": "Reviser rapport mensuel sans oublier les details puis archiver le resultat",
+     "due_date": "2026-01-03",
+     "id": 237,
+     "priority": 1,
+     "status": "done",
+     "title": "Reviser rapport mensuel"
+    },
+    {
+     "category_id": 17,
+     "description": "Acheter rapport simple pour le client selon les consignes",
+     "due_date": "2026-12-01",
+     "id": 317,
+     "priority": 3,
+     "status": "done",
+     "title": "Acheter rapport simple"
+    },
+    {
+     "category_id": 14,
+     "description": "Reviser rapport urgent sans oublier les details en suivant la procedure",
+     "due_date": "2026-08-05",
+     "id": 345,
+     "priority": 3,
+     "status": "done",
+     "title": "Reviser rapport urgent"
+    },
+    {
+     "category_id": 8,
+     "description": "Appeler rapport simple puis archiver le resultat selon les consignes",
+     "due_date": "2026-12-03",
+     "id": 377,
+     "priority": 1,
+     "status": "done",
+     "title": "Appeler rapport simple"
+    },
+    {
+     "category_id": 5,
+     "description": "Reviser rapport simple avant la fin de la semaine puis archiver le resultat",
+     "due_date": "2026-06-24",
+     "id": 381,
+     "priority": 1,
+     "status": "done",
+     "title": "Reviser rapport simple"
+    },
+    {
+     "category_id": 18,
+     "description": "Corriger rapport mensuel puis archiver le resultat selon les consignes",
+     "due_date": "2026-10-04",
+     "id": 394,
+     "priority": 2,
+     "status": "done",
+     "title": "Corriger rapport mensuel"
+    },
+    {
+     "category_id": 5,
+     "description": "Acheter rapport final avec toute l'equipe en suivant la procedure",
+     "due_date": "2026-09-26",
+     "id": 413,
+     "priority": 2,
+     "status": "done",
+     "title": "Acheter rapport final"
+    },
+    {
+     "category_id": 2,
+     "description": "Classer rapport final selon les consignes selon les consignes",
+     "due_date": "2026-08-22",
+     "id": 414,
+     "priority": 1,
+     "status": "done",
+     "title": "Classer rapport final"
+    }
+   ],
+   "total": 337
+  },
+  "method": "GET",
+  "path": "/tasks/search?q=rapport&status=done",
+  "status": 200
+ },
+ {
+  "body": {
+   "items": [
+    {
+     "category_id": 17,
+     "description": "Acheter budget urgent et informer le responsable avec toute l'equipe",
+     "due_date": "2026-05-16",
+     "id": 34,
+     "priority": 1,
+     "status": "todo",
+     "title": "Acheter budget urgent"
+    },
+    {
+     "category_id": 17,
+     "description": "Verifier budget ancien en suivant la procedure puis archiver le resultat",
+     "due_date": "2026-01-01",
+     "id": 99,
+     "priority": 2,
+     "status": "todo",
+     "title": "Verifier budget ancien"
+    },
+    {
+     "category_id": 20,
+     "description": "Reviser budget partage selon les consignes selon les consignes",
+     "due_date": "2026-01-02",
+     "id": 133,
+     "priority": 1,
+     "status": "todo",
+     "title": "Reviser budget partage"
+    },
+    {
+     "category_id": 17,
+     "description": "Corriger budget final en suivant la procedure puis archiver le resultat",
+     "due_date": "2026-05-31",
+     "id": 139,
+     "priority": 3,
+     "status": "todo",
+     "title": "Corriger budget final"
+    },
+    {
+     "category_id": 19,
+     "description": "Ecrire budget ancien sans oublier les details avec toute l'equipe",
+     "due_date": "2026-09-07",
+     "id": 152,
+     "priority": 3,
+     "status": "todo",
+     "title": "Ecrire budget ancien"
+    },
+    {
+     "category_id": 7,
+     "description": "Ecrire budget nouveau puis archiver le resultat avant la fin de la semaine",
+     "due_date": "2026-06-24",
+     "id": 171,
+     "priority": 1,
+     "status": "todo",
+     "title": "Ecrire budget nouveau"
+    },
+    {
+     "category_id": 5,
+     "description": "Ecrire budget prioritaire avec toute l'equipe pour le client",
+     "due_date": "2026-08-12",
+     "id": 178,
+     "priority": 3,
+     "status": "todo",
+     "title": "Ecrire budget prioritaire"
+    },
+    {
+     "category_id": 14,
+     "description": "Planifier budget prioritaire selon les consignes en suivant la procedure",
+     "due_date": "2026-11-24",
+     "id": 183,
+     "priority": 1,
+     "status": "todo",
+     "title": "Planifier budget prioritaire"
+    },
+    {
+     "category_id": 11,
+     "description": "Planifier budget nouveau pour le client en suivant la procedure",
+     "due_date": "2026-12-05",
+     "id": 194,
+     "priority": 1,
+     "status": "todo",
+     "title": "Planifier budget nouveau"
+    },
+    {
+     "category_id": 2,
+     "description": "Corriger budget partage puis archiver le resultat puis archiver le resultat",
+     "due_date": "2026-11-06",
+     "id": 198,
+     "priority": 3,
+     "status": "todo",
+     "title": "Corriger budget partage"
+    },
+    {
+     "category_id": 15,
+     "description": "Classer budget urgent selon les consignes pour le client",
+     "due_date": "2026-03-01",
+     "id": 249,
+     "priority": 3,
+     "status": "todo",
+     "title": "Classer budget urgent"
+    },
+    {
+     "category_id": 13,
+     "description": "Envoyer budget urgent et informer le responsable avant la fin de la semaine",
+     "due_date": "2026-08-13",
+     "id": 258,
+     "priority": 1,
+     "status": "todo",
+     "title": "Envoyer budget urgent"
+    },
+    {
+     "category_id": 10,
+     "description": "Preparer budget partage selon les consignes et informer le responsable",
+     "due_date": "2026-01-08",
+     "id": 266,
+     "priority": 2,
+     "status": "todo",
+     "title": "Preparer budget partage"
+    },
+    {
+     "category_id": 4,
+     "description": "Verifier budget simple et informer le responsable puis archiver le resultat",
+     "due_date": "2026-01-12",
+     "id": 307,
+     "priority": 1,
+     "status": "todo",
+     "title": "Verifier budget simple"
+    },
+    {
+     "category_id": 3,
+     "description": "Acheter budget nouveau pour le client et informer le responsable",
+     "due_date": "2026-02-22",
+     "id": 336,
+     "priority": 2,
+     "status": "todo",
+     "title": "Acheter budget nouveau"
+    },
+    {
+     "category_id": 14,
+     "description": "Classer budget urgent puis archiver le resultat puis archiver le resultat",
+     "due_date": "2026-07-07",
+     "id": 343,
+     "priority": 3,
+     "status": "todo",
+     "title": "Classer budget urgent"
+    },
+    {
+     "category_id": 7,
+     "description": "Planifier budget final en suivant la procedure avec toute l'equipe",
+     "due_date": "2026-03-21",
+     "id": 346,
+     "priority": 3,
+     "status": "todo",
+     "title": "Planifier budget final"
+    },
+    {
+     "category_id": 17,
+     "description": "Corriger budget urgent pour le client avant la fin de la semaine",
+     "due_date": "2026-09-22",
+     "id": 349,
+     "priority": 2,
+     "status": "todo",
+     "title": "Corriger budget urgent"
+    },
+    {
+     "category_id": 5,
+     "description": "Acheter budget ancien sans oublier les details avec toute l'equipe",
+     "due_date": "2026-03-22",
+     "id": 383,
+     "priority": 2,
+     "status": "todo",
+     "title": "Acheter budget ancien"
+    },
+    {
+     "category_id": 16,
+     "description": "Corriger budget nouveau sans oublier les details et informer le responsable",
+     "due_date": "2026-08-04",
+     "id": 450,
+     "priority": 2,
+     "status": "todo",
+     "title": "Corriger budget nouveau"
+    }
+   ],
+   "total": 350
+  },
+  "method": "GET",
+  "path": "/tasks/search?q=BUDGET&status=todo",
+  "status": 200
+ },
+ {
+  "body": {
+   "items": [],
+   "total": 0
+  },
+  "method": "GET",
+  "path": "/tasks/search?q=zzzzzz",
+  "status": 200
+ },
+ {
+  "body": {
+   "items": [],
+   "total": 0
+  },
+  "method": "GET",
+  "path": "/tasks/search?q=urgent+mensuel",
+  "status": 200
+ },
+ {
+  "body": {
+   "items": [],
+   "total": 0
+  },
+  "method": "GET",
+  "path": "/tasks/search?q=rendez",
+  "status": 200
+ },
+ {
+  "body": {
+   "error": "invalid input"
+  },
+  "method": "GET",
+  "path": "/tasks/search",
+  "status": 400
+ },
+ {
+  "body": {
+   "error": "invalid input"
+  },
+  "method": "GET",
+  "path": "/tasks/search?q=",
+  "status": 400
+ },
+ {
+  "body": {
+   "error": "invalid input"
+  },
+  "method": "GET",
+  "path": "/tasks/search?q=rapport&status=autre",
+  "status": 400
+ },
+ {
+  "body": {
+   "error": "invalid input"
+  },
+  "method": "GET",
+  "path": "/tasks/search?q=rapport&status=",
+  "status": 400
+ },
+ {
+  "body": {
+   "category": {
+    "id": 1,
+    "name": "Travail"
+   },
+   "count": 20,
+   "items": [
+    {
+     "category_id": 1,
+     "category_name": "Travail",
+     "description": "Ecrire calendrier partage et informer le responsable selon les consignes",
+     "due_date": "2026-07-19",
+     "id": 64,
+     "priority": 2,
+     "status": "todo",
+     "title": "Ecrire calendrier partage"
+    },
+    {
+     "category_id": 1,
+     "category_name": "Travail",
+     "description": "Appeler dossier nouveau puis archiver le resultat avec toute l'equipe",
+     "due_date": "2026-11-14",
+     "id": 126,
+     "priority": 2,
+     "status": "done",
+     "title": "Appeler dossier nouveau"
+    },
+    {
+     "category_id": 1,
+     "category_name": "Travail",
+     "description": "Acheter rapport final pour le client sans oublier les details",
+     "due_date": "2026-02-16",
+     "id": 148,
+     "priority": 3,
+     "status": "todo",
+     "title": "Acheter rapport final"
+    },
+    {
+     "category_id": 1,
+     "category_name": "Travail",
+     "description": "Reviser projet partage pour le client en suivant la procedure",
+     "due_date": "2026-09-12",
+     "id": 154,
+     "priority": 1,
+     "status": "todo",
+     "title": "Reviser projet partage"
+    },
+    {
+     "category_id": 1,
+     "category_name": "Travail",
+     "description": "Ecrire serveur nouveau puis archiver le resultat en suivant la procedure",
+     "due_date": "2026-04-06",
+     "id": 200,
+     "priority": 1,
+     "status": "todo",
+     "title": "Ecrire serveur nouveau"
+    },
+    {
+     "category_id": 1,
+     "category_name": "Travail",
+     "description": "Acheter serveur mensuel sans oublier les details en suivant la procedure",
+     "due_date": "2026-11-02",
+     "id": 226,
+     "priority": 3,
+     "status": "done",
+     "title": "Acheter serveur mensuel"
+    },
+    {
+     "category_id": 1,
+     "category_name": "Travail",
+     "description": "Acheter budget final sans oublier les details pour le client",
+     "due_date": "2026-01-12",
+     "id": 255,
+     "priority": 1,
+     "status": "done",
+     "title": "Acheter budget final"
+    },
+    {
+     "category_id": 1,
+     "category_name": "Travail",
+     "description": "Classer examen simple avant la fin de la semaine avant la fin de la semaine",
+     "due_date": "2026-01-09",
+     "id": 276,
+     "priority": 2,
+     "status": "doing",
+     "title": "Classer examen simple"
+    },
+    {
+     "category_id": 1,
+     "category_name": "Travail",
+     "description": "Appeler rapport mensuel en suivant la procedure avant la fin de la semaine",
+     "due_date": "2026-04-17",
+     "id": 283,
+     "priority": 2,
+     "status": "todo",
+     "title": "Appeler rapport mensuel"
+    },
+    {
+     "category_id": 1,
+     "category_name": "Travail",
+     "description": "Planifier facture mensuel puis archiver le resultat sans oublier les details",
+     "due_date": "2026-11-21",
+     "id": 286,
+     "priority": 2,
+     "status": "done",
+     "title": "Planifier facture mensuel"
+    },
+    {
+     "category_id": 1,
+     "category_name": "Travail",
+     "description": "Appeler facture simple selon les consignes et informer le responsable",
+     "due_date": "2026-07-22",
+     "id": 295,
+     "priority": 2,
+     "status": "todo",
+     "title": "Appeler facture simple"
+    },
+    {
+     "category_id": 1,
+     "category_name": "Travail",
+     "description": "Verifier serveur urgent avant la fin de la semaine avec toute l'equipe",
+     "due_date": "2026-03-05",
+     "id": 331,
+     "priority": 2,
+     "status": "done",
+     "title": "Verifier serveur urgent"
+    },
+    {
+     "category_id": 1,
+     "category_name": "Travail",
+     "description": "Reviser examen mensuel pour le client selon les consignes",
+     "due_date": "2026-01-05",
+     "id": 335,
+     "priority": 2,
+     "status": "doing",
+     "title": "Reviser examen mensuel"
+    },
+    {
+     "category_id": 1,
+     "category_name": "Travail",
+     "description": "Ecrire tableau final et informer le responsable avec toute l'equipe",
+     "due_date": "2026-05-15",
+     "id": 344,
+     "priority": 1,
+     "status": "todo",
+     "title": "Ecrire tableau final"
+    },
+    {
+     "category_id": 1,
+     "category_name": "Travail",
+     "description": "Appeler contrat ancien pour le client en suivant la procedure",
+     "due_date": "2026-06-21",
+     "id": 350,
+     "priority": 1,
+     "status": "done",
+     "title": "Appeler contrat ancien"
+    },
+    {
+     "category_id": 1,
+     "category_name": "Travail",
+     "description": "Envoyer examen prioritaire en suivant la procedure puis archiver le resultat",
+     "due_date": "2026-07-08",
+     "id": 356,
+     "priority": 2,
+     "status": "todo",
+     "title": "Envoyer examen prioritaire"
+    },
+    {
+     "category_id": 1,
+     "category_name": "Travail",
+     "description": "Reviser contrat urgent sans oublier les details avant la fin de la semaine",
+     "due_date": "2026-06-21",
+     "id": 358,
+     "priority": 2,
+     "status": "todo",
+     "title": "Reviser contrat urgent"
+    },
+    {
+     "category_id": 1,
+     "category_name": "Travail",
+     "description": "Planifier message urgent en suivant la procedure en suivant la procedure",
+     "due_date": "2026-07-27",
+     "id": 367,
+     "priority": 1,
+     "status": "done",
+     "title": "Planifier message urgent"
+    },
+    {
+     "category_id": 1,
+     "category_name": "Travail",
+     "description": "Acheter tableau ancien sans oublier les details avec toute l'equipe",
+     "due_date": "2026-03-12",
+     "id": 448,
+     "priority": 1,
+     "status": "todo",
+     "title": "Acheter tableau ancien"
+    },
+    {
+     "category_id": 1,
+     "category_name": "Travail",
+     "description": "Envoyer examen simple puis archiver le resultat avec toute l'equipe",
+     "due_date": "2026-02-22",
+     "id": 458,
+     "priority": 3,
+     "status": "done",
+     "title": "Envoyer examen simple"
+    }
+   ]
+  },
+  "method": "GET",
+  "path": "/categories/1/tasks",
+  "status": 200
+ },
+ {
+  "body": {
+   "category": {
+    "id": 20,
+    "name": "Divers"
+   },
+   "count": 5,
+   "items": [
+    {
+     "category_id": 20,
+     "category_name": "Divers",
+     "description": "Classer cours urgent avant la fin de la semaine avec toute l'equipe",
+     "due_date": "2026-01-14",
+     "id": 2,
+     "priority": 3,
+     "status": "todo",
+     "title": "Classer cours urgent"
+    },
+    {
+     "category_id": 20,
+     "category_name": "Divers",
+     "description": "Envoyer rapport mensuel pour le client pour le client",
+     "due_date": "2026-02-02",
+     "id": 13,
+     "priority": 2,
+     "status": "done",
+     "title": "Envoyer rapport mensuel"
+    },
+    {
+     "category_id": 20,
+     "category_name": "Divers",
+     "description": "Envoyer tableau urgent avant la fin de la semaine selon les consignes",
+     "due_date": "2026-03-20",
+     "id": 69,
+     "priority": 1,
+     "status": "todo",
+     "title": "Envoyer tableau urgent"
+    },
+    {
+     "category_id": 20,
+     "category_name": "Divers",
+     "description": "Planifier cours partage avec toute l'equipe selon les consignes",
+     "due_date": "2026-03-03",
+     "id": 72,
+     "priority": 2,
+     "status": "todo",
+     "title": "Planifier cours partage"
+    },
+    {
+     "category_id": 20,
+     "category_name": "Divers",
+     "description": "Corriger dossier prioritaire avec toute l'equipe selon les consignes",
+     "due_date": "2026-11-02",
+     "id": 87,
+     "priority": 2,
+     "status": "todo",
+     "title": "Corriger dossier prioritaire"
+    }
+   ]
+  },
+  "method": "GET",
+  "path": "/categories/20/tasks?limit=5",
+  "status": 200
+ },
+ {
+  "body": {
+   "category": {
+    "id": 7,
+    "name": "Projets"
+   },
+   "count": 100,
+   "items": [
+    {
+     "category_id": 7,
+     "category_name": "Projets",
+     "description": "Verifier message final en suivant la procedure sans oublier les details",
+     "due_date": "2026-06-09",
+     "id": 19,
+     "priority": 3,
+     "status": "done",
+     "title": "Verifier message final"
+    },
+    {
+     "category_id": 7,
+     "category_name": "Projets",
+     "description": "Envoyer rapport ancien avec toute l'equipe selon les consignes",
+     "due_date": "2026-10-04",
+     "id": 22,
+     "priority": 2,
+     "status": "todo",
+     "title": "Envoyer rapport ancien"
+    },
+    {
+     "category_id": 7,
+     "category_name": "Projets",
+     "description": "Envoyer projet ancien avec toute l'equipe selon les consignes",
+     "due_date": "2026-03-17",
+     "id": 54,
+     "priority": 1,
+     "status": "done",
+     "title": "Envoyer projet ancien"
+    },
+    {
+     "category_id": 7,
+     "category_name": "Projets",
+     "description": "Envoyer contrat final selon les consignes sans oublier les details",
+     "due_date": "2026-02-02",
+     "id": 61,
+     "priority": 3,
+     "status": "done",
+     "title": "Envoyer contrat final"
+    },
+    {
+     "category_id": 7,
+     "category_name": "Projets",
+     "description": "Ecrire budget nouveau puis archiver le resultat avant la fin de la semaine",
+     "due_date": "2026-06-24",
+     "id": 171,
+     "priority": 1,
+     "status": "todo",
+     "title": "Ecrire budget nouveau"
+    },
+    {
+     "category_id": 7,
+     "category_name": "Projets",
+     "description": "Appeler message nouveau et informer le responsable en suivant la procedure",
+     "due_date": "2026-05-27",
+     "id": 191,
+     "priority": 3,
+     "status": "todo",
+     "title": "Appeler message nouveau"
+    },
+    {
+     "category_id": 7,
+     "category_name": "Projets",
+     "description": "Reviser facture mensuel et informer le responsable selon les consignes",
+     "due_date": "2026-07-23",
+     "id": 267,
+     "priority": 3,
+     "status": "done",
+     "title": "Reviser facture mensuel"
+    },
+    {
+     "category_id": 7,
+     "category_name": "Projets",
+     "description": "Preparer calendrier partage et informer le responsable sans oublier les details",
+     "due_date": "2026-04-16",
+     "id": 310,
+     "priority": 3,
+     "status": "todo",
+     "title": "Preparer calendrier partage"
+    },
+    {
+     "category_id": 7,
+     "category_name": "Projets",
+     "description": "Classer calendrier ancien sans oublier les details pour le client",
+     "due_date": "2026-01-31",
+     "id": 323,
+     "priority": 1,
+     "status": "done",
+     "title": "Classer calendrier ancien"
+    },
+    {
+     "category_id": 7,
+     "category_name": "Projets",
+     "description": "Envoyer calendrier simple puis archiver le resultat avec toute l'equipe",
+     "due_date": "2026-08-08",
+     "id": 329,
+     "priority": 2,
+     "status": "done",
+     "title": "Envoyer calendrier simple"
+    },
+    {
+     "category_id": 7,
+     "category_name": "Projets",
+     "description": "Planifier budget final en suivant la procedure avec toute l'equipe",
+     "due_date": "2026-03-21",
+     "id": 346,
+     "priority": 3,
+     "status": "todo",
+     "title": "Planifier budget final"
+    },
+    {
+     "category_id": 7,
+     "category_name": "Projets",
+     "description": "Reviser projet prioritaire selon les consignes et informer le responsable",
+     "due_date": "2026-10-07",
+     "id": 357,
+     "priority": 2,
+     "status": "todo",
+     "title": "Reviser projet prioritaire"
+    },
+    {
+     "category_id": 7,
+     "category_name": "Projets",
+     "description": "Classer message final avec toute l'equipe et informer le responsable",
+     "due_date": "2026-04-09",
+     "id": 403,
+     "priority": 1,
+     "status": "todo",
+     "title": "Classer message final"
+    },
+    {
+     "category_id": 7,
+     "category_name": "Projets",
+     "description": "Acheter tableau final puis archiver le resultat avant la fin de la semaine",
+     "due_date": "2026-03-28",
+     "id": 432,
+     "priority": 2,
+     "status": "todo",
+     "title": "Acheter tableau final"
+    },
+    {
+     "category_id": 7,
+     "category_name": "Projets",
+     "description": "Envoyer message mensuel en suivant la procedure avec toute l'equipe",
+     "due_date": "2026-11-08",
+     "id": 443,
+     "priority": 2,
+     "status": "done",
+     "title": "Envoyer message mensuel"
+    },
+    {
+     "category_id": 7,
+     "category_name": "Projets",
+     "description": "Planifier budget prioritaire selon les consignes selon les consignes",
+     "due_date": "2026-08-23",
+     "id": 463,
+     "priority": 2,
+     "status": "todo",
+     "title": "Planifier budget prioritaire"
+    },
+    {
+     "category_id": 7,
+     "category_name": "Projets",
+     "description": "Corriger contrat nouveau en suivant la procedure puis archiver le resultat",
+     "due_date": "2026-04-13",
+     "id": 468,
+     "priority": 3,
+     "status": "done",
+     "title": "Corriger contrat nouveau"
+    },
+    {
+     "category_id": 7,
+     "category_name": "Projets",
+     "description": "Ecrire serveur simple et informer le responsable avant la fin de la semaine",
+     "due_date": "2026-06-14",
+     "id": 485,
+     "priority": 3,
+     "status": "todo",
+     "title": "Ecrire serveur simple"
+    },
+    {
+     "category_id": 7,
+     "category_name": "Projets",
+     "description": "Ecrire budget mensuel pour le client avant la fin de la semaine",
+     "due_date": "2026-12-17",
+     "id": 486,
+     "priority": 1,
+     "status": "done",
+     "title": "Ecrire budget mensuel"
+    },
+    {
+     "category_id": 7,
+     "category_name": "Projets",
+     "description": "Classer budget partage sans oublier les details sans oublier les details",
+     "due_date": "2026-09-25",
+     "id": 518,
+     "priority": 1,
+     "status": "todo",
+     "title": "Classer budget partage"
+    },
+    {
+     "category_id": 7,
+     "category_name": "Projets",
+     "description": "Envoyer cours ancien avec toute l'equipe pour le client",
+     "due_date": "2026-10-21",
+     "id": 541,
+     "priority": 2,
+     "status": "doing",
+     "title": "Envoyer cours ancien"
+    },
+    {
+     "category_id": 7,
+     "category_name": "Projets",
+     "description": "Envoyer calendrier partage sans oublier les details et informer le responsable",
+     "due_date": "2026-08-24",
+     "id": 577,
+     "priority": 1,
+     "status": "todo",
+     "title": "Envoyer calendrier partage"
+    },
+    {
+     "category_id": 7,
+     "category_name": "Projets",
+     "description": "Envoyer message mensuel avant la fin de la semaine pour le client",
+     "due_date": "2026-02-24",
+     "id": 590,
+     "priority": 1,
+     "status": "todo",
+     "title": "Envoyer message mensuel"
+    },
+    {
+     "category_id": 7,
+     "category_name": "Projets",
+     "description": "Preparer dossier prioritaire avant la fin de la semaine avec toute l'equipe",
+     "due_date": "2026-09-23",
+     "id": 594,
+     "priority": 1,
+     "status": "done",
+     "title": "Preparer dossier prioritaire"
+    },
+    {
+     "category_id": 7,
+     "category_name": "Projets",
+     "description": "Acheter examen final selon les consignes pour le client",
+     "due_date": "2026-03-12",
+     "id": 626,
+     "priority": 3,
+     "status": "doing",
+     "title": "Acheter examen final"
+    },
+    {
+     "category_id": 7,
+     "category_name": "Projets",
+     "description": "Planifier cours ancien et informer le responsable avant la fin de la semaine",
+     "due_date": "2026-08-21",
+     "id": 639,
+     "priority": 3,
+     "status": "todo",
+     "title": "Planifier cours ancien"
+    },
+    {
+     "category_id": 7,
+     "category_name": "Projets",
+     "description": "Appeler projet simple en suivant la procedure pour le client",
+     "due_date": "2026-01-02",
+     "id": 643,
+     "priority": 1,
+     "status": "todo",
+     "title": "Appeler projet simple"
+    },
+    {
+     "category_id": 7,
+     "category_name": "Projets",
+     "description": "Classer cours ancien sans oublier les details sans oublier les details",
+     "due_date": "2026-12-06",
+     "id": 686,
+     "priority": 3,
+     "status": "todo",
+     "title": "Classer cours ancien"
+    },
+    {
+     "category_id": 7,
+     "category_name": "Projets",
+     "description": "Reviser budget mensuel puis archiver le resultat selon les consignes",
+     "due_date": "2026-05-22",
+     "id": 734,
+     "priority": 3,
+     "status": "doing",
+     "title": "Reviser budget mensuel"
+    },
+    {
+     "category_id": 7,
+     "category_name": "Projets",
+     "description": "Planifier serveur final et informer le responsable selon les consignes",
+     "due_date": "2026-06-21",
+     "id": 741,
+     "priority": 2,
+     "status": "done",
+     "title": "Planifier serveur final"
+    },
+    {
+     "category_id": 7,
+     "category_name": "Projets",
+     "description": "Classer message partage avec toute l'equipe sans oublier les details",
+     "due_date": "2026-10-30",
+     "id": 744,
+     "priority": 2,
+     "status": "done",
+     "title": "Classer message partage"
+    },
+    {
+     "category_id": 7,
+     "category_name": "Projets",
+     "description": "Planifier serveur final avec toute l'equipe selon les consignes",
+     "due_date": "2026-10-14",
+     "id": 787,
+     "priority": 1,
+     "status": "todo",
+     "title": "Planifier serveur final"
+    },
+    {
+     "category_id": 7,
+     "category_name": "Projets",
+     "description": "Ecrire dossier mensuel avec toute l'equipe avant la fin de la semaine",
+     "due_date": "2026-05-25",
+     "id": 796,
+     "priority": 3,
+     "status": "doing",
+     "title": "Ecrire dossier mensuel"
+    },
+    {
+     "category_id": 7,
+     "category_name": "Projets",
+     "description": "Ecrire tableau ancien pour le client en suivant la procedure",
+     "due_date": "2026-09-12",
+     "id": 821,
+     "priority": 2,
+     "status": "todo",
+     "title": "Ecrire tableau ancien"
+    },
+    {
+     "category_id": 7,
+     "category_name": "Projets",
+     "description": "Appeler examen simple sans oublier les details sans oublier les details",
+     "due_date": "2026-03-23",
+     "id": 830,
+     "priority": 1,
+     "status": "done",
+     "title": "Appeler examen simple"
+    },
+    {
+     "category_id": 7,
+     "category_name": "Projets",
+     "description": "Envoyer rapport nouveau et informer le responsable et informer le responsable",
+     "due_date": "2026-04-08",
+     "id": 850,
+     "priority": 3,
+     "status": "todo",
+     "title": "Envoyer rapport nouveau"
+    },
+    {
+     "category_id": 7,
+     "category_name": "Projets",
+     "description": "Envoyer contrat final avant la fin de la semaine selon les consignes",
+     "due_date": "2026-01-14",
+     "id": 883,
+     "priority": 1,
+     "status": "todo",
+     "title": "Envoyer contrat final"
+    },
+    {
+     "category_id": 7,
+     "category_name": "Projets",
+     "description": "Reviser examen final selon les consignes sans oublier les details",
+     "due_date": "2026-02-14",
+     "id": 884,
+     "priority": 3,
+     "status": "done",
+     "title": "Reviser examen final"
+    },
+    {
+     "category_id": 7,
+     "category_name": "Projets",
+     "description": "Acheter serveur urgent en suivant la procedure pour le client",
+     "due_date": "2026-10-06",
+     "id": 907,
+     "priority": 2,
+     "status": "done",
+     "title": "Acheter serveur urgent"
+    },
+    {
+     "category_id": 7,
+     "category_name": "Projets",
+     "description": "Corriger calendrier nouveau selon les consignes avec toute l'equipe",
+     "due_date": "2026-07-04",
+     "id": 914,
+     "priority": 3,
+     "status": "todo",
+     "title": "Corriger calendrier nouveau"
+    },
+    {
+     "category_id": 7,
+     "category_name": "Projets",
+     "description": "Corriger message nouveau avec toute l'equipe avec toute l'equipe",
+     "due_date": "2026-04-09",
+     "id": 977,
+     "priority": 1,
+     "status": "todo",
+     "title": "Corriger message nouveau"
+    },
+    {
+     "category_id": 7,
+     "category_name": "Projets",
+     "description": "Preparer facture partage selon les consignes et informer le responsable",
+     "due_date": "2026-06-06",
+     "id": 983,
+     "priority": 2,
+     "status": "done",
+     "title": "Preparer facture partage"
+    },
+    {
+     "category_id": 7,
+     "category_name": "Projets",
+     "description": "Verifier facture simple et informer le responsable puis archiver le resultat",
+     "due_date": "2026-08-08",
+     "id": 992,
+     "priority": 2,
+     "status": "done",
+     "title": "Verifier facture simple"
+    },
+    {
+     "category_id": 7,
+     "category_name": "Projets",
+     "description": "Verifier rapport mensuel et informer le responsable sans oublier les details",
+     "due_date": "2026-07-23",
+     "id": 1009,
+     "priority": 2,
+     "status": "todo",
+     "title": "Verifier rapport mensuel"
+    },
+    {
+     "category_id": 7,
+     "category_name": "Projets",
+     "description": "Envoyer tableau urgent en suivant la procedure pour le client",
+     "due_date": "2026-01-18",
+     "id": 1013,
+     "priority": 1,
+     "status": "doing",
+     "title": "Envoyer tableau urgent"
+    },
+    {
+     "category_id": 7,
+     "category_name": "Projets",
+     "description": "Planifier facture mensuel avant la fin de la semaine pour le client",
+     "due_date": "2026-03-19",
+     "id": 1025,
+     "priority": 2,
+     "status": "todo",
+     "title": "Planifier facture mensuel"
+    },
+    {
+     "category_id": 7,
+     "category_name": "Projets",
+     "description": "Ecrire dossier simple avec toute l'equipe puis archiver le resultat",
+     "due_date": "2026-03-21",
+     "id": 1036,
+     "priority": 2,
+     "status": "todo",
+     "title": "Ecrire dossier simple"
+    },
+    {
+     "category_id": 7,
+     "category_name": "Projets",
+     "description": "Planifier calendrier final selon les consignes avec toute l'equipe",
+     "due_date": "2026-07-10",
+     "id": 1090,
+     "priority": 2,
+     "status": "done",
+     "title": "Planifier calendrier final"
+    },
+    {
+     "category_id": 7,
+     "category_name": "Projets",
+     "description": "Envoyer examen mensuel et informer le responsable avant la fin de la semaine",
+     "due_date": "2026-04-25",
+     "id": 1206,
+     "priority": 2,
+     "status": "done",
+     "title": "Envoyer examen mensuel"
+    },
+    {
+     "category_id": 7,
+     "category_name": "Projets",
+     "description": "Ecrire tableau prioritaire et informer le responsable et informer le responsable",
+     "due_date": "2026-05-09",
+     "id": 1225,
+     "priority": 2,
+     "status": "doing",
+     "title": "Ecrire tableau prioritaire"
+    },
+    {
+     "category_id": 7,
+     "category_name": "Projets",
+     "description": "Envoyer dossier nouveau sans oublier les details puis archiver le resultat",
+     "due_date": "2026-01-26",
+     "id": 1234,
+     "priority": 1,
+     "status": "done",
+     "title": "Envoyer dossier nouveau"
+    },
+    {
+     "category_id": 7,
+     "category_name": "Projets",
+     "description": "Appeler projet mensuel puis archiver le resultat selon les consignes",
+     "due_date": "2026-12-22",
+     "id": 1246,
+     "priority": 3,
+     "status": "done",
+     "title": "Appeler projet mensuel"
+    },
+    {
+     "category_id": 7,
+     "category_name": "Projets",
+     "description": "Classer projet final sans oublier les details puis archiver le resultat",
+     "due_date": "2026-05-09",
+     "id": 1277,
+     "priority": 1,
+     "status": "done",
+     "title": "Classer projet final"
+    },
+    {
+     "category_id": 7,
+     "category_name": "Projets",
+     "description": "Appeler budget partage pour le client selon les consignes",
+     "due_date": "2026-03-04",
+     "id": 1323,
+     "priority": 3,
+     "status": "todo",
+     "title": "Appeler budget partage"
+    },
+    {
+     "category_id": 7,
+     "category_name": "Projets",
+     "description": "Ecrire serveur urgent puis archiver le resultat en suivant la procedure",
+     "due_date": "2026-01-15",
+     "id": 1328,
+     "priority": 3,
+     "status": "done",
+     "title": "Ecrire serveur urgent"
+    },
+    {
+     "category_id": 7,
+     "category_name": "Projets",
+     "description": "Envoyer budget nouveau sans oublier les details pour le client",
+     "due_date": "2026-04-03",
+     "id": 1349,
+     "priority": 3,
+     "status": "doing",
+     "title": "Envoyer budget nouveau"
+    },
+    {
+     "category_id": 7,
+     "category_name": "Projets",
+     "description": "Appeler message ancien puis archiver le resultat pour le client",
+     "due_date": "2026-11-11",
+     "id": 1397,
+     "priority": 3,
+     "status": "todo",
+     "title": "Appeler message ancien"
+    },
+    {
+     "category_id": 7,
+     "category_name": "Projets",
+     "description": "Classer tableau simple selon les consignes pour le client",
+     "due_date": "2026-02-16",
+     "id": 1405,
+     "priority": 1,
+     "status": "todo",
+     "title": "Classer tableau simple"
+    },
+    {
+     "category_id": 7,
+     "category_name": "Projets",
+     "description": "Appeler contrat ancien sans oublier les details selon les consignes",
+     "due_date": "2026-04-01",
+     "id": 1425,
+     "priority": 2,
+     "status": "done",
+     "title": "Appeler contrat ancien"
+    },
+    {
+     "category_id": 7,
+     "category_name": "Projets",
+     "description": "Ecrire examen final avant la fin de la semaine sans oublier les details",
+     "due_date": "2026-12-26",
+     "id": 1427,
+     "priority": 3,
+     "status": "todo",
+     "title": "Ecrire examen final"
+    },
+    {
+     "category_id": 7,
+     "category_name": "Projets",
+     "description": "Classer projet prioritaire selon les consignes avant la fin de la semaine",
+     "due_date": "2026-08-12",
+     "id": 1460,
+     "priority": 2,
+     "status": "todo",
+     "title": "Classer projet prioritaire"
+    },
+    {
+     "category_id": 7,
+     "category_name": "Projets",
+     "description": "Reviser cours final sans oublier les details avec toute l'equipe",
+     "due_date": "2026-02-26",
+     "id": 1470,
+     "priority": 1,
+     "status": "todo",
+     "title": "Reviser cours final"
+    },
+    {
+     "category_id": 7,
+     "category_name": "Projets",
+     "description": "Classer projet final pour le client sans oublier les details",
+     "due_date": "2026-08-03",
+     "id": 1471,
+     "priority": 2,
+     "status": "doing",
+     "title": "Classer projet final"
+    },
+    {
+     "category_id": 7,
+     "category_name": "Projets",
+     "description": "Corriger tableau mensuel sans oublier les details sans oublier les details",
+     "due_date": "2026-11-22",
+     "id": 1475,
+     "priority": 2,
+     "status": "done",
+     "title": "Corriger tableau mensuel"
+    },
+    {
+     "category_id": 7,
+     "category_name": "Projets",
+     "description": "Appeler budget partage avec toute l'equipe pour le client",
+     "due_date": "2026-04-27",
+     "id": 1499,
+     "priority": 1,
+     "status": "doing",
+     "title": "Appeler budget partage"
+    },
+    {
+     "category_id": 7,
+     "category_name": "Projets",
+     "description": "Acheter tableau final et informer le responsable en suivant la procedure",
+     "due_date": "2026-04-17",
+     "id": 1513,
+     "priority": 3,
+     "status": "todo",
+     "title": "Acheter tableau final"
+    },
+    {
+     "category_id": 7,
+     "category_name": "Projets",
+     "description": "Reviser facture prioritaire pour le client sans oublier les details",
+     "due_date": "2026-07-01",
+     "id": 1532,
+     "priority": 1,
+     "status": "done",
+     "title": "Reviser facture prioritaire"
+    },
+    {
+     "category_id": 7,
+     "category_name": "Projets",
+     "description": "Preparer contrat simple avec toute l'equipe sans oublier les details",
+     "due_date": "2026-07-14",
+     "id": 1533,
+     "priority": 3,
+     "status": "todo",
+     "title": "Preparer contrat simple"
+    },
+    {
+     "category_id": 7,
+     "category_name": "Projets",
+     "description": "Ecrire serveur mensuel et informer le responsable et informer le responsable",
+     "due_date": "2026-03-06",
+     "id": 1548,
+     "priority": 3,
+     "status": "done",
+     "title": "Ecrire serveur mensuel"
+    },
+    {
+     "category_id": 7,
+     "category_name": "Projets",
+     "description": "Verifier examen urgent sans oublier les details sans oublier les details",
+     "due_date": "2026-10-18",
+     "id": 1577,
+     "priority": 1,
+     "status": "done",
+     "title": "Verifier examen urgent"
+    },
+    {
+     "category_id": 7,
+     "category_name": "Projets",
+     "description": "Acheter examen ancien pour le client pour le client",
+     "due_date": "2026-10-25",
+     "id": 1583,
+     "priority": 1,
+     "status": "todo",
+     "title": "Acheter examen ancien"
+    },
+    {
+     "category_id": 7,
+     "category_name": "Projets",
+     "description": "Appeler message prioritaire pour le client sans oublier les details",
+     "due_date": "2026-02-17",
+     "id": 1584,
+     "priority": 1,
+     "status": "done",
+     "title": "Appeler message prioritaire"
+    },
+    {
+     "category_id": 7,
+     "category_name": "Projets",
+     "description": "Acheter cours prioritaire avant la fin de la semaine puis archiver le resultat",
+     "due_date": "2026-11-22",
+     "id": 1605,
+     "priority": 1,
+     "status": "done",
+     "title": "Acheter cours prioritaire"
+    },
+    {
+     "category_id": 7,
+     "category_name": "Projets",
+     "description": "Planifier calendrier partage sans oublier les details pour le client",
+     "due_date": "2026-07-27",
+     "id": 1638,
+     "priority": 2,
+     "status": "done",
+     "title": "Planifier calendrier partage"
+    },
+    {
+     "category_id": 7,
+     "category_name": "Projets",
+     "description": "Acheter tableau nouveau pour le client selon les consignes",
+     "due_date": "2026-10-19",
+     "id": 1640,
+     "priority": 3,
+     "status": "todo",
+     "title": "Acheter tableau nouveau"
+    },
+    {
+     "category_id": 7,
+     "category_name": "Projets",
+     "description": "Reviser calendrier ancien et informer le responsable sans oublier les details",
+     "due_date": "2026-07-21",
+     "id": 1641,
+     "priority": 2,
+     "status": "todo",
+     "title": "Reviser calendrier ancien"
+    },
+    {
+     "category_id": 7,
+     "category_name": "Projets",
+     "description": "Appeler serveur simple puis archiver le resultat selon les consignes",
+     "due_date": "2026-11-02",
+     "id": 1691,
+     "priority": 3,
+     "status": "done",
+     "title": "Appeler serveur simple"
+    },
+    {
+     "category_id": 7,
+     "category_name": "Projets",
+     "description": "Ecrire projet simple avant la fin de la semaine sans oublier les details",
+     "due_date": "2026-10-29",
+     "id": 1705,
+     "priority": 1,
+     "status": "doing",
+     "title": "Ecrire projet simple"
+    },
+    {
+     "category_id": 7,
+     "category_name": "Projets",
+     "description": "Planifier rapport nouveau avant la fin de la semaine puis archiver le resultat",
+     "due_date": "2026-12-10",
+     "id": 1757,
+     "priority": 1,
+     "status": "done",
+     "title": "Planifier rapport nouveau"
+    },
+    {
+     "category_id": 7,
+     "category_name": "Projets",
+     "description": "Reviser serveur ancien selon les consignes selon les consignes",
+     "due_date": "2026-06-21",
+     "id": 1764,
+     "priority": 2,
+     "status": "todo",
+     "title": "Reviser serveur ancien"
+    },
+    {
+     "category_id": 7,
+     "category_name": "Projets",
+     "description": "Ecrire tableau nouveau en suivant la procedure en suivant la procedure",
+     "due_date": "2026-11-10",
+     "id": 1765,
+     "priority": 3,
+     "status": "doing",
+     "title": "Ecrire tableau nouveau"
+    },
+    {
+     "category_id": 7,
+     "category_name": "Projets",
+     "description": "Preparer message ancien selon les consignes pour le client",
+     "due_date": "2026-10-05",
+     "id": 1776,
+     "priority": 2,
+     "status": "done",
+     "title": "Preparer message ancien"
+    },
+    {
+     "category_id": 7,
+     "category_name": "Projets",
+     "description": "Appeler serveur urgent puis archiver le resultat et informer le responsable",
+     "due_date": "2026-08-11",
+     "id": 1800,
+     "priority": 1,
+     "status": "todo",
+     "title": "Appeler serveur urgent"
+    },
+    {
+     "category_id": 7,
+     "category_name": "Projets",
+     "description": "Preparer rapport prioritaire avant la fin de la semaine pour le client",
+     "due_date": "2026-08-02",
+     "id": 1811,
+     "priority": 3,
+     "status": "todo",
+     "title": "Preparer rapport prioritaire"
+    },
+    {
+     "category_id": 7,
+     "category_name": "Projets",
+     "description": "Appeler calendrier partage et informer le responsable avant la fin de la semaine",
+     "due_date": "2026-06-26",
+     "id": 1833,
+     "priority": 2,
+     "status": "todo",
+     "title": "Appeler calendrier partage"
+    },
+    {
+     "category_id": 7,
+     "category_name": "Projets",
+     "description": "Ecrire facture nouveau avant la fin de la semaine en suivant la procedure",
+     "due_date": "2026-09-10",
+     "id": 1871,
+     "priority": 3,
+     "status": "doing",
+     "title": "Ecrire facture nouveau"
+    },
+    {
+     "category_id": 7,
+     "category_name": "Projets",
+     "description": "Ecrire facture urgent sans oublier les details selon les consignes",
+     "due_date": "2026-09-28",
+     "id": 1872,
+     "priority": 2,
+     "status": "done",
+     "title": "Ecrire facture urgent"
+    },
+    {
+     "category_id": 7,
+     "category_name": "Projets",
+     "description": "Planifier contrat partage en suivant la procedure avec toute l'equipe",
+     "due_date": "2026-02-26",
+     "id": 1877,
+     "priority": 3,
+     "status": "doing",
+     "title": "Planifier contrat partage"
+    },
+    {
+     "category_id": 7,
+     "category_name": "Projets",
+     "description": "Ecrire calendrier mensuel avec toute l'equipe et informer le responsable",
+     "due_date": "2026-04-22",
+     "id": 1894,
+     "priority": 1,
+     "status": "done",
+     "title": "Ecrire calendrier mensuel"
+    },
+    {
+     "category_id": 7,
+     "category_name": "Projets",
+     "description": "Acheter rapport prioritaire avant la fin de la semaine en suivant la procedure",
+     "due_date": "2026-07-01",
+     "id": 1936,
+     "priority": 1,
+     "status": "todo",
+     "title": "Acheter rapport prioritaire"
+    },
+    {
+     "category_id": 7,
+     "category_name": "Projets",
+     "description": "Envoyer budget simple et informer le responsable avec toute l'equipe",
+     "due_date": "2026-05-04",
+     "id": 1938,
+     "priority": 3,
+     "status": "doing",
+     "title": "Envoyer budget simple"
+    },
+    {
+     "category_id": 7,
+     "category_name": "Projets",
+     "description": "Appeler dossier mensuel sans oublier les details avant la fin de la semaine",
+     "due_date": "2026-07-20",
+     "id": 1944,
+     "priority": 3,
+     "status": "done",
+     "title": "Appeler dossier mensuel"
+    },
+    {
+     "category_id": 7,
+     "category_name": "Projets",
+     "description": "Acheter rapport simple sans oublier les details pour le client",
+     "due_date": "2026-10-26",
+     "id": 1977,
+     "priority": 3,
+     "status": "done",
+     "title": "Acheter rapport simple"
+    },
+    {
+     "category_id": 7,
+     "category_name": "Projets",
+     "description": "Acheter contrat simple et informer le responsable puis archiver le resultat",
+     "due_date": "2026-08-18",
+     "id": 1986,
+     "priority": 1,
+     "status": "todo",
+     "title": "Acheter contrat simple"
+    },
+    {
+     "category_id": 7,
+     "category_name": "Projets",
+     "description": "Reviser tableau final en suivant la procedure sans oublier les details",
+     "due_date": "2026-10-07",
+     "id": 2012,
+     "priority": 1,
+     "status": "done",
+     "title": "Reviser tableau final"
+    },
+    {
+     "category_id": 7,
+     "category_name": "Projets",
+     "description": "Corriger calendrier mensuel pour le client selon les consignes",
+     "due_date": "2026-11-07",
+     "id": 2036,
+     "priority": 1,
+     "status": "done",
+     "title": "Corriger calendrier mensuel"
+    },
+    {
+     "category_id": 7,
+     "category_name": "Projets",
+     "description": "Corriger calendrier simple avec toute l'equipe et informer le responsable",
+     "due_date": "2026-04-12",
+     "id": 2043,
+     "priority": 2,
+     "status": "todo",
+     "title": "Corriger calendrier simple"
+    },
+    {
+     "category_id": 7,
+     "category_name": "Projets",
+     "description": "Ecrire serveur final selon les consignes sans oublier les details",
+     "due_date": "2026-01-09",
+     "id": 2055,
+     "priority": 1,
+     "status": "done",
+     "title": "Ecrire serveur final"
+    },
+    {
+     "category_id": 7,
+     "category_name": "Projets",
+     "description": "Classer projet nouveau pour le client avant la fin de la semaine",
+     "due_date": "2026-12-25",
+     "id": 2068,
+     "priority": 3,
+     "status": "done",
+     "title": "Classer projet nouveau"
+    },
+    {
+     "category_id": 7,
+     "category_name": "Projets",
+     "description": "Preparer facture mensuel avant la fin de la semaine puis archiver le resultat",
+     "due_date": "2026-11-07",
+     "id": 2088,
+     "priority": 3,
+     "status": "todo",
+     "title": "Preparer facture mensuel"
+    }
+   ]
+  },
+  "method": "GET",
+  "path": "/categories/7/tasks?limit=1000",
+  "status": 200
+ },
+ {
+  "body": {
+   "error": "not found"
+  },
+  "method": "GET",
+  "path": "/categories/21/tasks",
+  "status": 404
+ },
+ {
+  "body": {
+   "error": "not found"
+  },
+  "method": "GET",
+  "path": "/categories/0/tasks",
+  "status": 404
+ },
+ {
+  "body": {
+   "error": "invalid input"
+  },
+  "method": "GET",
+  "path": "/categories/3/tasks?limit=0",
+  "status": 400
+ },
+ {
+  "body": {
+   "error": "invalid input"
+  },
+  "method": "GET",
+  "path": "/categories/3/tasks?limit=x",
+  "status": 400
+ },
+ {
+  "body": {
+   "category_id": 3,
+   "description": "desc",
+   "due_date": "2026-12-31",
+   "id": 10001,
+   "priority": 2,
+   "status": "todo",
+   "title": "Tache A"
+  },
+  "method": "POST",
+  "path": "/tasks",
+  "status": 201
+ },
+ {
+  "body": {
+   "category_id": 20,
+   "description": "",
+   "due_date": "2027-01-01",
+   "id": 10002,
+   "priority": 1,
+   "status": "doing",
+   "title": "Accents é à ü 日本 \"guillemets\" \\ slash"
+  },
+  "method": "POST",
+  "path": "/tasks",
+  "status": 201
+ },
+ {
+  "body": {
+   "category_id": 1,
+   "description": "d",
+   "due_date": "2027-02-02",
+   "id": 10003,
+   "priority": 3,
+   "status": "done",
+   "title": "yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy"
+  },
+  "method": "POST",
+  "path": "/tasks",
+  "status": 201
+ },
+ {
+  "body": {
+   "error": "invalid input"
+  },
+  "method": "POST",
+  "path": "/tasks",
+  "status": 400
+ },
+ {
+  "body": {
+   "error": "invalid input"
+  },
+  "method": "POST",
+  "path": "/tasks",
+  "status": 400
+ },
+ {
+  "body": {
+   "error": "invalid input"
+  },
+  "method": "POST",
+  "path": "/tasks",
+  "status": 400
+ },
+ {
+  "body": {
+   "error": "invalid input"
+  },
+  "method": "POST",
+  "path": "/tasks",
+  "status": 400
+ },
+ {
+  "body": {
+   "error": "invalid input"
+  },
+  "method": "POST",
+  "path": "/tasks",
+  "status": 400
+ },
+ {
+  "body": {
+   "error": "invalid input"
+  },
+  "method": "POST",
+  "path": "/tasks",
+  "status": 400
+ },
+ {
+  "body": {
+   "error": "invalid input"
+  },
+  "method": "POST",
+  "path": "/tasks",
+  "status": 400
+ },
+ {
+  "body": {
+   "error": "invalid input"
+  },
+  "method": "POST",
+  "path": "/tasks",
+  "status": 400
+ },
+ {
+  "body": {
+   "error": "invalid input"
+  },
+  "method": "POST",
+  "path": "/tasks",
+  "status": 400
+ },
+ {
+  "body": {
+   "error": "invalid input"
+  },
+  "method": "POST",
+  "path": "/tasks",
+  "status": 400
+ },
+ {
+  "body": {
+   "error": "invalid input"
+  },
+  "method": "POST",
+  "path": "/tasks",
+  "status": 400
+ },
+ {
+  "body": {
+   "error": "invalid input"
+  },
+  "method": "POST",
+  "path": "/tasks",
+  "status": 400
+ },
+ {
+  "body": {
+   "category_id": 3,
+   "description": "desc",
+   "due_date": "2026-12-31",
+   "id": 10001,
+   "priority": 2,
+   "status": "todo",
+   "title": "Tache A"
+  },
+  "method": "GET",
+  "path": "/tasks/10001",
+  "status": 200
+ },
+ {
+  "body": {
+   "category_id": 20,
+   "description": "",
+   "due_date": "2027-01-01",
+   "id": 10002,
+   "priority": 1,
+   "status": "doing",
+   "title": "Accents é à ü 日本 \"guillemets\" \\ slash"
+  },
+  "method": "GET",
+  "path": "/tasks/10002",
+  "status": 200
+ },
+ {
+  "body": {
+   "category_id": 1,
+   "description": "d",
+   "due_date": "2027-02-02",
+   "id": 10003,
+   "priority": 3,
+   "status": "done",
+   "title": "yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy"
+  },
+  "method": "GET",
+  "path": "/tasks/10003",
+  "status": 200
+ },
+ {
+  "body": {
+   "category_id": 3,
+   "description": "desc",
+   "due_date": "2026-12-31",
+   "id": 10001,
+   "priority": 2,
+   "status": "done",
+   "title": "Tache A"
+  },
+  "method": "PUT",
+  "path": "/tasks/10001",
+  "status": 200
+ },
+ {
+  "body": {
+   "error": "invalid input"
+  },
+  "method": "PUT",
+  "path": "/tasks/10001",
+  "status": 400
+ },
+ {
+  "body": {
+   "error": "invalid input"
+  },
+  "method": "PUT",
+  "path": "/tasks/10001",
+  "status": 400
+ },
+ {
+  "body": {
+   "error": "invalid input"
+  },
+  "method": "PUT",
+  "path": "/tasks/10001",
+  "status": 400
+ },
+ {
+  "body": {
+   "error": "not found"
+  },
+  "method": "PUT",
+  "path": "/tasks/99999",
+  "status": 404
+ },
+ {
+  "body": {
+   "error": "invalid input"
+  },
+  "method": "PUT",
+  "path": "/tasks/99999",
+  "status": 400
+ },
+ {
+  "body": {
+   "category_id": 3,
+   "description": "desc",
+   "due_date": "2026-12-31",
+   "id": 10001,
+   "priority": 2,
+   "status": "done",
+   "title": "Tache A"
+  },
+  "method": "GET",
+  "path": "/tasks/10001",
+  "status": 200
+ },
+ {
+  "body": null,
+  "method": "DELETE",
+  "path": "/tasks/10001",
+  "status": 204
+ },
+ {
+  "body": {
+   "error": "not found"
+  },
+  "method": "DELETE",
+  "path": "/tasks/10001",
+  "status": 404
+ },
+ {
+  "body": {
+   "error": "not found"
+  },
+  "method": "GET",
+  "path": "/tasks/10001",
+  "status": 404
+ },
+ {
+  "body": {
+   "error": "not found"
+  },
+  "method": "DELETE",
+  "path": "/tasks/99999",
+  "status": 404
+ },
+ {
+  "body": {
+   "items": [
+    {
+     "category_id": 20,
+     "description": "",
+     "due_date": "2027-01-01",
+     "id": 10002,
+     "priority": 1,
+     "status": "doing",
+     "title": "Accents é à ü 日本 \"guillemets\" \\ slash"
+    }
+   ],
+   "total": 1
+  },
+  "method": "GET",
+  "path": "/tasks/search?q=Accents",
+  "status": 200
+ },
+ {
+  "body": {
+   "items": [
+    {
+     "category_id": 18,
+     "description": "Envoyer rapport prioritaire selon les consignes selon les consignes",
+     "due_date": "2026-02-14",
+     "id": 1,
+     "priority": 1,
+     "status": "todo",
+     "title": "Envoyer rapport prioritaire"
+    },
+    {
+     "category_id": 20,
+     "description": "Classer cours urgent avant la fin de la semaine avec toute l'equipe",
+     "due_date": "2026-01-14",
+     "id": 2,
+     "priority": 3,
+     "status": "todo",
+     "title": "Classer cours urgent"
+    },
+    {
+     "category_id": 6,
+     "description": "Ecrire facture nouveau selon les consignes et informer le responsable",
+     "due_date": "2026-12-24",
+     "id": 3,
+     "priority": 1,
+     "status": "doing",
+     "title": "Ecrire facture nouveau"
+    }
+   ],
+   "page": 1,
+   "size": 3,
+   "total": 10002
+  },
+  "method": "GET",
+  "path": "/tasks?page=1&size=3",
+  "status": 200
+ },
+ {
+  "body": {
+   "category": {
+    "id": 3,
+    "name": "Maison"
+   },
+   "count": 2,
+   "items": [
+    {
+     "category_id": 3,
+     "category_name": "Maison",
+     "description": "Envoyer cours mensuel en suivant la procedure puis archiver le resultat",
+     "due_date": "2026-01-24",
+     "id": 6,
+     "priority": 3,
+     "status": "doing",
+     "title": "Envoyer cours mensuel"
+    },
+    {
+     "category_id": 3,
+     "category_name": "Maison",
+     "description": "Planifier tableau ancien et informer le responsable et informer le responsable",
+     "due_date": "2026-06-23",
+     "id": 20,
+     "priority": 1,
+     "status": "todo",
+     "title": "Planifier tableau ancien"
+    }
+   ]
+  },
+  "method": "GET",
+  "path": "/categories/3/tasks?limit=2",
+  "status": 200
+ },
+ {
+  "body": {
+   "by_category": [
+    {
+     "done": 200,
+     "id": 1,
+     "name": "Travail",
+     "total": 516
+    },
+    {
+     "done": 164,
+     "id": 2,
+     "name": "Etudes",
+     "total": 468
+    },
+    {
+     "done": 200,
+     "id": 3,
+     "name": "Maison",
+     "total": 535
+    },
+    {
+     "done": 200,
+     "id": 4,
+     "name": "Sante",
+     "total": 480
+    },
+    {
+     "done": 207,
+     "id": 5,
+     "name": "Finances",
+     "total": 522
+    },
+    {
+     "done": 191,
+     "id": 6,
+     "name": "Courses",
+     "total": 483
+    },
+    {
+     "done": 190,
+     "id": 7,
+     "name": "Projets",
+     "total": 463
+    },
+    {
+     "done": 206,
+     "id": 8,
+     "name": "Loisirs",
+     "total": 535
+    },
+    {
+     "done": 204,
+     "id": 9,
+     "name": "Famille",
+     "total": 513
+    },
+    {
+     "done": 195,
+     "id": 10,
+     "name": "Voyages",
+     "total": 497
+    },
+    {
+     "done": 215,
+     "id": 11,
+     "name": "Sport",
+     "total": 516
+    },
+    {
+     "done": 195,
+     "id": 12,
+     "name": "Lecture",
+     "total": 484
+    },
+    {
+     "done": 215,
+     "id": 13,
+     "name": "Admin",
+     "total": 511
+    },
+    {
+     "done": 199,
+     "id": 14,
+     "name": "Reunions",
+     "total": 506
+    },
+    {
+     "done": 197,
+     "id": 15,
+     "name": "Code",
+     "total": 504
+    },
+    {
+     "done": 202,
+     "id": 16,
+     "name": "Reseau",
+     "total": 476
+    },
+    {
+     "done": 187,
+     "id": 17,
+     "name": "Cuisine",
+     "total": 478
+    },
+    {
+     "done": 195,
+     "id": 18,
+     "name": "Jardin",
+     "total": 503
+    },
+    {
+     "done": 204,
+     "id": 19,
+     "name": "Auto",
+     "total": 506
+    },
+    {
+     "done": 198,
+     "id": 20,
+     "name": "Divers",
+     "total": 506
+    }
+   ],
+   "by_status": {
+    "doing": 1927,
+    "done": 3964,
+    "todo": 4111
+   },
+   "total": 10002
+  },
+  "method": "GET",
+  "path": "/stats",
+  "status": 200
+ },
+ {
+  "body": {
+   "error": "not found"
+  },
+  "method": "GET",
+  "path": "/inconnu",
+  "status": 404
+ },
+ {
+  "body": {
+   "error": "not found"
+  },
+  "method": "GET",
+  "path": "/",
+  "status": 404
+ },
+ {
+  "body": {
+   "error": "not found"
+  },
+  "method": "DELETE",
+  "path": "/stats",
+  "status": 404
+ },
+ {
+  "body": {
+   "error": "not found"
+  },
+  "method": "POST",
+  "path": "/stats",
+  "status": 404
+ },
+ {
+  "body": {
+   "error": "not found"
+  },
+  "method": "GET",
+  "path": "/tasks/1/extra",
+  "status": 404
+ }
+]

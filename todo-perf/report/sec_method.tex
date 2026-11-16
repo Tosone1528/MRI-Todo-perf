@@ -1,0 +1,78 @@
+\section{Méthodologie}\label{sec:methodo}
+\subsection{Application de référence}
+L'application est un gestionnaire de tâches (to-do) exposé comme une API REST en JSON. Les données sont
+conservées dans SQLite : une table \texttt{categories} (20 lignes) et une table \texttt{tasks} (identifiant, titre,
+description, statut parmi \textit{todo}/\textit{doing}/\textit{done}, priorité de 1 à 3, catégorie, échéance), avec
+des index sur le statut et sur la catégorie. Toutes les versions partent de la même base de 10\,000 tâches, générée
+avec une graine fixe. Cinq fonctionnalités sont soumises à la charge :
+\textbf{F1} créer une tâche (écriture) ;
+\textbf{F2} lister les tâches avec pagination (lecture et comptage) ;
+\textbf{F3} rechercher par mot-clé (\texttt{LIKE}) avec filtre de statut facultatif (parcours de la table) ;
+\textbf{F4} lister les tâches d'une catégorie (jointure) ;
+\textbf{F5} calculer des statistiques par statut et par catégorie (agrégation).
+Trois routes complètent le CRUD (lire, modifier le statut, supprimer) ; elles sont vérifiées par le test
+d'équivalence mais ne sont pas chargées. Le cahier des charges complet (routes, validations, codes d'erreur) est joint
+au rendu.
+
+\subsection{Technologies comparées}
+Nous comparons cinq technologies (tableau~\ref{tab:techs}), qui couvrent plusieurs modèles d'exécution : code natif
+compilé (Rust, Go), JavaScript compilé à la volée sur une boucle d'événements (Node.js) et langages interprétés
+(PHP, Python). PHP et Python sont aussi des langages très répandus pour le développement web, ce qui rend
+la comparaison utile aux étudiants. Chaque version utilise le serveur HTTP le plus simple disponible dans sa
+technologie, sans paquet externe (voir la section~\ref{sec:dev}).
+
+\begin{table}[t]
+\caption{Technologies comparées}\label{tab:techs}
+\centering\small
+\begin{tabular}{@{}llll@{}}
+\toprule
+\textbf{Technologie} & \textbf{Langage} & \textbf{Version} & \textbf{SQLite}\\
+\midrule
+Flask 3.1.3 & Python & 3.13.18 & 3.53.1\\
+module \texttt{http} & Node.js & 22.23.4 & 3.53.4\\
+\texttt{php -S} & PHP & 8.3.6 & 3.45.1\\
+\texttt{net/http} & Go & 1.24.7 & 3.45.1\\
+bibl. standard & Rust & 1.97.0 & 3.45.1\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Métriques}
+Une seule grandeur ne suffit pas pour dire qu'une version est « plus performante » : un serveur peut répondre vite
+en consommant beaucoup de processeur, ou tenir la charge en répondant lentement à certains utilisateurs. Nous
+retenons six familles de mesures, relevées pour chaque essai.
+\begin{itemize}[leftmargin=*,itemsep=0pt,topsep=2pt]
+\item \textbf{Débit} (requêtes/s) : nombre de requêtes traitées divisé par la durée de l'essai ; mesure la capacité
+à absorber du trafic. Outil : générateur de charge.
+\item \textbf{Latence moyenne, médiane (p50), p95 et p99} (ms) : durée entre l'envoi de la requête et la fin de la
+réponse, vue par le client. La médiane décrit le cas courant, p95 et p99 l'expérience des utilisateurs les moins
+bien servis, que la moyenne masque \cite{dean2013}.
+\item \textbf{Taux d'erreur} : requêtes échouées (réseau ou code HTTP hors 2xx) ; un débit n'a de sens que sans erreur.
+\item \textbf{Temps CPU par requête} (ms) : temps processeur (utilisateur + système) du serveur pendant l'essai,
+divisé par le nombre de requêtes ; mesure le coût de chaque requête, donc l'efficacité énergétique et financière.
+Outil : \texttt{psutil}, d'après \texttt{/proc}.
+\item \textbf{Mémoire} (Mo) : \textit{proportional set size} (PSS) de tous les processus du serveur en fin d'essai
+(plus fidèle que la RSS lorsque plusieurs processus partagent des pages, comme PHP).
+\item \textbf{Temps de démarrage} (ms) : du lancement du processus à la première réponse correcte ; utile pour
+le déploiement et la mise à l'échelle.
+\end{itemize}
+
+\subsection{Outils et environnement de test}
+Le générateur de charge est un programme Go écrit pour l'occasion (aucun outil comme k6 ou wrk n'était disponible
+sur la machine, sans accès réseau). Chaque « utilisateur simultané » est une goroutine qui garde sa connexion HTTP/1.1
+ouverte et envoie la requête suivante dès la réponse reçue (boucle fermée, sans temps de réflexion \cite{jain1991}). Les tests
+s'exécutent dans un conteneur Linux (Ubuntu 24.04, noyau 6.18) à 2 cœurs virtuels (Xeon à 2,1\,GHz) et 8\,Go de
+mémoire. Le serveur est épinglé sur le cœur~0 et le générateur sur le cœur~1 (\texttt{taskset}), si bien que
+\emph{chaque version dispose d'un seul cœur} : les résultats mesurent le rendement par cœur, non l'avantage du
+parallélisme.
+
+\subsection{Déroulement des tests}
+Pour chaque fonctionnalité (F1 à F5), chaque niveau de charge (10, 50 et 100 utilisateurs simultanés) et chaque
+essai numéroté de 1 à 30, nous exécutons, pour les cinq technologies dans un ordre tiré au sort (graine fixe) :
+(1)~copie d'une base neuve identique et démarrage du serveur ; (2)~100 requêtes de chauffe, non comptées ;
+(3)~essai mesuré de 1\,000 requêtes (500 pour F3 et F5, plus longues) réparties entre les utilisateurs ;
+(4)~relevé du CPU et de la mémoire, puis arrêt du serveur. L'ordre aléatoire répartit sur toutes les technologies
+les dérives de la machine (cache, voisins du conteneur) ; le redémarrage à chaque essai rend les essais
+indépendants, y compris pour F1 qui modifie la base. Les 30 essais par cas permettent de calculer des moyennes
+avec intervalles de confiance à 95\,\% et des tests de comparaison \cite{georges2007}.
+Les scripts, le générateur et les données brutes sont fournis pour répéter l'expérience.

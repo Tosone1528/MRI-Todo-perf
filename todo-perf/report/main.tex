@@ -1,0 +1,60 @@
+\documentclass[10pt,a4paper,twocolumn]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{mathptmx}
+\usepackage[provide=*]{babel}
+\babelprovide[import,main]{french}
+\usepackage[top=1.9cm,bottom=2.2cm,left=1.65cm,right=1.65cm,columnsep=0.6cm]{geometry}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{caption}
+\usepackage{microtype}
+\usepackage{amsmath}
+\usepackage[hidelinks]{hyperref}
+
+\setlength{\parindent}{0.9em}
+\setlength{\parskip}{0pt}
+\renewcommand{\thesection}{\Roman{section}}
+\renewcommand{\thesubsection}{\Alph{subsection}}
+\titleformat{\section}{\centering\normalfont\small\scshape}{\thesection.}{0.5em}{}
+\titleformat{\subsection}{\normalfont\itshape}{\thesubsection.}{0.5em}{}
+\titlespacing*{\section}{0pt}{1.1ex plus 0.5ex}{0.8ex}
+\titlespacing*{\subsection}{0pt}{1ex plus 0.4ex}{0.5ex}
+\renewcommand{\thetable}{\Roman{table}}
+\DeclareCaptionLabelFormat{up}{\scshape #1~#2}
+\captionsetup{labelformat=up,labelsep=newline,font=footnotesize,justification=centering,singlelinecheck=false,
+  skip=4pt}
+\captionsetup[figure]{labelsep=period,justification=centering,name=Figure}
+\captionsetup[table]{name=Table,textfont=scriptsize,labelfont=scriptsize}
+\renewcommand{\figurename}{Figure}
+
+\newcommand{\member}[1]{\begin{tabular}[t]{@{}c@{}}[Prénom NOM Postnom]\\ FASI, UPC\\ {[adresse@email.com]}\end{tabular}}
+
+\begin{document}
+
+\twocolumn[{%
+\begin{center}
+{\LARGE Rust, Go, PHP, Node.js ou Python : qui sert le mieux une même API de gestion de tâches ?\\[0.3ex]
+\large Étude expérimentale de la performance sous charge}\\[1.4ex]
+\small
+\begin{tabular}{@{}cccc@{}}
+\member{1}\hspace{1.2em} & \member{2}\hspace{1.2em} & \member{3}\hspace{1.2em} & \member{4}\\[1.2ex]
+\end{tabular}\\
+\begin{tabular}{@{}cc@{}}
+\member{5}\hspace{4em} & \member{6}\\
+\end{tabular}
+\end{center}
+\vspace{1ex}
+}]
+
+\input{abstract}
+\input{sec_intro}
+\input{sec_method}
+\input{sec_dev}
+\input{sec_res}
+\input{sec_concl}
+
+\input{biblio}
+\end{document}

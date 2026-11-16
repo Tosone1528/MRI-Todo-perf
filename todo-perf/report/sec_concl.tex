@@ -1,0 +1,13 @@
+\section{Conclusion}
+Nous voulions savoir de combien les performances de cinq technologies diffèrent pour une même API de gestion de
+tâches. La réponse dépend de la fonctionnalité : sur les opérations légères, Rust traite de 5 à 9 fois plus de
+requêtes par seconde que Python, avec un coût CPU par requête jusqu'à 11 fois plus faible, et l'ordre Rust, Go, PHP,
+Node.js, Python est stable ; sur les opérations dominées par SQLite, les cinq versions se rapprochent, car le moteur
+de base de données est le même. Rust et Go ont aussi l'empreinte mémoire la plus faible et démarrent en quelques
+millisecondes. Les moyennes ne suffisent pas : la latence p95 de Rust sur les statistiques est la plus mauvaise malgré
+une médiane comparable.
+
+Ces résultats ont des limites : un seul cœur, des serveurs simples ou de développement, deux versions de SQLite, une
+seule machine partagée. Une suite naturelle serait de reprendre l'étude avec les frameworks usuels (Axum, Express,
+Laravel, Django) et des serveurs de production, de laisser chaque version utiliser tous les cœurs, d'utiliser une
+base client-serveur comme PostgreSQL, et de vérifier l'explication proposée pour la latence extrême de Rust.

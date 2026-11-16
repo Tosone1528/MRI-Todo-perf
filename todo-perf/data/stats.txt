@@ -1,0 +1,79 @@
+Essais analysés : 2250; essais par cas : min 30 max 30
+Total d'erreurs HTTP/transport : 0
+Niveau de référence : 50 utilisateurs
+
+== Comparaisons deux à deux du débit (Mann-Whitney U, Holm) au niveau de référence ==
+create: 10/10 paires différentes (p<0,05). Non significatives : aucune
+list: 10/10 paires différentes (p<0,05). Non significatives : aucune
+search: 8/10 paires différentes (p<0,05). Non significatives : go-node (p=0.511), php-node (p=0.0677)
+category: 10/10 paires différentes (p<0,05). Non significatives : aucune
+stats: 9/10 paires différentes (p<0,05). Non significatives : rust-python (p=0.684)
+
+== Débit moyen (req/s) au niveau de référence ==
+create: rust=13373, go=7517, php=6488, node=4792, python=1433
+list: rust=7735, go=5820, php=5500, node=4003, python=1443
+search: rust=806, go=761, php=721, node=752, python=535
+category: rust=9261, go=6791, php=6335, node=4186, python=1468
+stats: rust=243, go=237, php=230, node=271, python=242
+
+== Rapports de débit (technologie / Python) ==
+create: rust=9.33, go=5.25, php=4.53, node=3.34, python=1.00
+list: rust=5.36, go=4.03, php=3.81, node=2.77, python=1.00
+search: rust=1.51, go=1.42, php=1.35, node=1.40, python=1.00
+category: rust=6.31, go=4.63, php=4.32, node=2.85, python=1.00
+stats: rust=1.00, go=0.98, php=0.95, node=1.12, python=1.00
+
+== Latence p95 (ms) au niveau de référence ==
+create: rust=7.5, go=15.3, php=17.1, node=20.0, python=44.1
+list: rust=11.1, go=15.9, php=23.2, node=22.3, python=40.8
+search: rust=125.6, go=84.7, php=85.5, node=79.5, python=116.0
+category: rust=9.3, go=13.9, php=21.4, node=20.2, python=39.5
+stats: rust=396.1, go=240.1, php=256.7, node=215.0, python=274.7
+
+== CPU par requête (ms) au niveau de référence ==
+create: rust=0.061, go=0.111, php=0.129, node=0.178, python=0.683
+list: rust=0.127, go=0.172, php=0.169, node=0.248, python=0.681
+search: rust=1.247, go=1.315, php=1.356, node=1.329, python=1.848
+category: rust=0.107, go=0.145, php=0.133, node=0.239, python=0.669
+stats: rust=4.081, go=4.183, php=4.293, node=3.670, python=4.107
+
+== Coefficient de variation du débit (écart-type / moyenne, %) ==
+create: rust=11.4, go=12.2, php=17.3, node=11.5, python=8.2
+list: rust=6.2, go=11.7, php=12.4, node=11.4, python=4.9
+search: rust=11.2, go=8.6, php=7.8, node=7.5, python=5.8
+category: rust=12.7, go=10.8, php=14.0, node=10.9, python=4.0
+stats: rust=3.6, go=3.5, php=4.0, node=3.5, python=5.1
+
+== Mémoire (PSS en fin d'essai, Mo) et démarrage (ms), moyenne sur tous les essais ==
+rust: pss_fin=8.5 pic_rss=10.2 repos=2.7 demarrage=6
+go: pss_fin=17.6 pic_rss=19.2 repos=8.7 demarrage=7
+php: pss_fin=41.7 pic_rss=107.7 repos=35.4 demarrage=30
+node: pss_fin=52.9 pic_rss=54.7 repos=40.8 demarrage=41
+python: pss_fin=33.5 pic_rss=40.5 repos=28.1 demarrage=160
+
+== Évolution avec la charge : latence moyenne (ms) par niveau ==
+create/rust: 10->0.8, 50->3.2, 100->6.9 | débit: 10->12722, 50->13373, 100->11875
+create/go: 10->1.3, 50->6.4, 100->12.9 | débit: 10->7785, 50->7517, 100->7086
+create/php: 10->1.7, 50->7.5, 100->14.4 | débit: 10->5849, 50->6488, 100->6225
+create/node: 10->2.1, 50->10.3, 100->20.5 | débit: 10->4834, 50->4792, 100->4618
+create/python: 10->6.9, 50->34.2, 100->65.1 | débit: 10->1445, 50->1433, 100->1450
+list/rust: 10->1.3, 50->6.3, 100->13.7 | débit: 10->7761, 50->7735, 100->6670
+list/go: 10->1.8, 50->8.4, 100->19.7 | débit: 10->5602, 50->5820, 100->4798
+list/php: 10->1.9, 50->9.0, 100->18.3 | débit: 10->5311, 50->5500, 100->5030
+list/node: 10->2.5, 50->12.4, 100->26.8 | débit: 10->3997, 50->4003, 100->3593
+list/python: 10->7.2, 50->33.8, 100->69.6 | débit: 10->1393, 50->1443, 100->1364
+search/rust: 10->12.8, 50->61.0, 100->114.9 | débit: 10->791, 50->806, 100->810
+search/go: 10->14.2, 50->63.1, 100->123.5 | débit: 10->710, 50->761, 100->734
+search/php: 10->14.3, 50->66.4, 100->126.8 | débit: 10->702, 50->721, 100->711
+search/node: 10->13.6, 50->63.6, 100->124.0 | débit: 10->734, 50->752, 100->726
+search/python: 10->19.5, 50->89.4, 100->170.3 | débit: 10->512, 50->535, 100->530
+category/rust: 10->1.1, 50->5.3, 100->11.4 | débit: 10->9167, 50->9261, 100->8030
+category/go: 10->1.5, 50->7.2, 100->16.6 | débit: 10->6825, 50->6791, 100->5617
+category/php: 10->1.7, 50->7.8, 100->16.2 | débit: 10->5860, 50->6335, 100->5808
+category/node: 10->2.5, 50->11.8, 100->24.5 | débit: 10->4008, 50->4186, 100->3923
+category/python: 10->7.0, 50->33.2, 100->70.7 | débit: 10->1420, 50->1468, 100->1344
+stats/rust: 10->41.6, 50->198.7, 100->391.5 | débit: 10->240, 50->243, 100->236
+stats/go: 10->42.5, 50->201.1, 100->394.2 | débit: 10->234, 50->237, 100->230
+stats/php: 10->43.5, 50->207.3, 100->399.9 | débit: 10->229, 50->230, 100->226
+stats/node: 10->37.1, 50->175.9, 100->337.8 | débit: 10->268, 50->271, 100->267
+stats/python: 10->41.8, 50->197.7, 100->388.8 | débit: 10->238, 50->242, 100->234

@@ -1,0 +1,13 @@
+\noindent\textbf{\textit{Résumé}---}\textbf{\textit{Les affirmations sur la rapidité des langages de programmation
+reposent rarement sur des mesures d'applications complètes. Nous comparons cinq implémentations équivalentes d'une
+même API REST de gestion de tâches adossée à SQLite (Rust, Go, PHP, Node.js et Python) sous charge croissante (10, 50
+et 100 utilisateurs simultanés), sur cinq fonctionnalités (création, liste paginée, recherche, jointure, statistiques).
+Chaque cas est répété 30 fois, soit 2\,250 essais et 1,8 million de requêtes ; nous mesurons le débit, les latences
+(médiane, p95, p99), le temps CPU par requête, la mémoire et le temps de démarrage. Sur les fonctionnalités légères,
+Rust traite jusqu'à 9,3 fois plus de requêtes par seconde que Python (13\,373 contre 1\,433 en création) ; sur la
+recherche et les statistiques, où SQLite domine, l'écart tombe à 1,5 et à environ 1. Ces résultats valent pour ces
+implémentations, sur un seul cœur ; ils ne se généralisent pas aux langages.}}
+
+\smallskip
+\noindent\textit{\textbf{Mots-clés}---}performance, test de charge, API REST, SQLite, latence, Rust, Go, PHP, Node.js,
+Python

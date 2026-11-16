@@ -1,0 +1,39 @@
+\section{Développement}\label{sec:dev}
+\subsection{Réalisation des versions}
+Les cinq versions, les scripts de test et le programme d'analyse ont été produits avec l'assistance d'un outil
+d'intelligence artificielle (Claude, d'Anthropic), ce que l'énoncé du travail autorise. Chaque version reprend la
+même structure : un routeur, la validation des entrées, des requêtes SQL identiques et la construction de la réponse
+JSON. Toutes utilisent le mode WAL de SQLite \cite{sqlitewal}, quatre connexions à la base (une seule pour Node.js, dont le code
+s'exécute dans un seul fil) et des connexions HTTP persistantes.
+\begin{itemize}[leftmargin=*,itemsep=0pt,topsep=2pt]
+\item \textbf{Python} : Flask, avec le serveur de développement de Werkzeug en mode multifil (HTTP/1.1) et le module
+\texttt{sqlite3} ;
+\item \textbf{Node.js} : module \texttt{http} natif et \texttt{node:sqlite}, requêtes préparées une fois ;
+\item \textbf{PHP} : serveur intégré \texttt{php -S} avec quatre processus de travail, PDO SQLite à connexion persistante ;
+\item \textbf{Go} : \texttt{net/http} et un accès SQLite écrit avec cgo (liaison à \texttt{libsqlite3}) ;
+\item \textbf{Rust} : bibliothèque standard seulement : serveur HTTP/1.1 minimal à un fil par connexion, lecteur
+JSON écrit à la main et appels FFI à \texttt{libsqlite3}.
+\end{itemize}
+La machine n'ayant pas d'accès au réseau, les frameworks cités dans l'énoncé à titre d'exemple (Axum, Express,
+Laravel) n'ont pas pu être installés. Cela signifie que les versions Go et Rust utilisent un serveur plus
+rudimentaire que celui d'un projet réel, et que Python (Flask) est la seule version bâtie sur un framework.
+
+\subsection{Équivalence fonctionnelle}
+L'équivalence est vérifiée par un scénario de 69 requêtes rejoué sur chaque version, à partir d'une base neuve : 26
+réponses 200, 3 créations (dont un titre avec accents, guillemets et caractères japonais), 1 suppression, 26 erreurs
+400 (JSON invalide, statut ou priorité hors domaine, page ou limite non numérique, clé étrangère inexistante,
+titre de 201 caractères) et 13 erreurs 404. Pour chaque requête, le code HTTP et le corps JSON analysé sont comparés.
+Les cinq versions donnent exactement les mêmes réponses sur les 69 requêtes. Pendant les essais de charge, les
+codes de réponse sont aussi contrôlés : le nombre total d'erreurs est indiqué dans la section~\ref{sec:res}.
+
+\subsection{Difficultés rencontrées}
+\emph{Versions de SQLite.} Python et Node.js embarquent leur propre SQLite (3.53), alors que PHP, Go et Rust utilisent
+la bibliothèque du système (3.45.1). Cet écart n'a pas pu être supprimé ; il est une limite de l'étude (section IV-C).
+\emph{Représentation du JSON en Go.} Une première version Go construisait des \texttt{map} génériques ; son débit
+sur F2 était plus faible. Remplacer ces \texttt{map} par des structures typées a rendu l'implémentation plus
+idiomatique, et l'équivalence a été revérifiée.
+\emph{Serveurs « de développement ».} Le serveur Werkzeug de Flask et \texttt{php -S} sont déconseillés en production ;
+les résultats de Python et PHP concernent donc cette configuration, non un déploiement avec Gunicorn ou
+PHP-FPM.
+\emph{Connexions persistantes.} Flask répond en HTTP/1.0 par défaut ; nous avons forcé HTTP/1.1 pour que toutes les
+versions réutilisent leurs connexions.
